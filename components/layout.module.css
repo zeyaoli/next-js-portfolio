@@ -1,0 +1,19 @@
+.container {
+  /* max-width: 36rem; */
+  /* width: 100vw; */
+  /* height: 100vh; */
+  min-height: 100vh;
+  /* background-color: #f3f1e9; */
+}
+
+.innerContainer {
+  padding: 1.5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}

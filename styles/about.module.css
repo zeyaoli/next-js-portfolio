@@ -1,0 +1,25 @@
+.about_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_content {
+  display: flex;
+}
+
+.profile_pic {
+  width: 50%;
+  /* float: none; */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_pic img {
+  width: 85%;
+}
+
+.profile_text {
+  width: 50%;
+}
