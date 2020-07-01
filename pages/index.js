@@ -7,8 +7,7 @@ import indexStyles from "../styles/index.module.css";
 
 import { getSortedPostsData } from "../lib/posts";
 
-const bgColor = "#f3f1e9";
-const singleProject = `${utilStyles.listItem} ${indexStyles.singleProject}`;
+const bgColor = "#FFE52C";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -25,33 +24,51 @@ export default function Home({ allPostsData }) {
         <title>Zeyao Li</title>
       </Head>
       <section className={indexStyles.info}>
-        <p className={utilStyles.headingLightXl}>
-          Zeyao Li is a Design Engineer studying at NYU ITP. He focuses on using
-          web technology to enhance human relationships with the help of
-          Internet. Born in Beijing, worked and studied in Prague, Seattle, and
-          Shanghai, Zeyao is now working and living in New York City.
-        </p>
+        <div className={indexStyles.introduction}>
+          <p className={utilStyles.headingLg}>
+            Zeyao Li is a Design Engineer studying at NYU ITP. He focuses on
+            using web technology to enhance human relationships with the help of
+            Internet. <br />
+            Born in Beijing, worked and studied in Prague, Seattle, and
+            Shanghai, Zeyao is now working and living in New York City.
+          </p>
+        </div>
+        <div className={indexStyles.social}>
+          <a href="#">Twitter</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+          <a href="#">Are.na</a>
+        </div>
       </section>
       <section>
         <ul className={`${utilStyles.list} ${indexStyles.projects}`}>
           {allPostsData.map(({ id, title, description, thumbnail, skill }) => (
-            <li className={singleProject} key={id}>
+            <li className={utilStyles.listItem} key={id}>
               <Link href="/projects/[id]" as={`/projects/${id}`}>
-                <img
-                  src={thumbnail}
-                  alt={title}
+                <div
+                  style={{ backgroundImage: `url(${thumbnail})` }}
                   className={indexStyles.image}
-                />
+                ></div>
               </Link>
               <Link href="/projects/[id]" as={`/projects/${id}`}>
-                <a className={utilStyles.headingLightXl}>{title}</a>
+                <a
+                  className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}
+                >
+                  {title}
+                </a>
               </Link>
-              <li>{skill}</li>
-              <li>{description}</li>
+              <div className={utilStyles.textLightSm}>{skill}</div>
+              <div className={utilStyles.textMd}>{description}</div>
             </li>
           ))}
         </ul>
+        <div className={indexStyles.archive}>
+          <Link href="/">
+            <a> Archive →︎</a>
+          </Link>
+        </div>
       </section>
+
       <style jsx global>
         {`
           body {

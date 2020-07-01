@@ -3,11 +3,15 @@ import footerStyles from "./footer.module.css";
 
 export default function Footer() {
   return (
-    <a
-      href="mailto:zeyao.li@nyu.edu"
-      className={`${utilStyles.footerText} ${footerStyles.footer}`}
-    >
-      zeyao.li@nyu.edu
-    </a>
+    <footer className={footerStyles.footer}>
+      <div className={footerStyles.footerLeft}>
+        <p className={utilStyles.footerText}>Zeyao Li © 2020</p>
+      </div>
+      <div className={footerStyles.footerRight}>
+        <a href="mailto:zeyao.li@nyu.edu" className={utilStyles.footerText}>
+          <p>zeyao.li@nyu.edu</p>
+        </a>
+      </div>
+    </footer>
   );
 }

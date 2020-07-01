@@ -1,10 +1,13 @@
 ---
 title: "Thirsty Plant"
+year: "2019"
 date: "2019-12-17"
+duration: "4 Weeks"
 description: " A Twitter API controlled light installation on criticizing people's addiction of social media."
 thumbnail: "/thirsty_plant_cover.jpg"
-category: "engineer"
+role: "Individual Project"
 skill: "#API #Node.js #ProductDesign #Arduino"
+award: "Liberty Science Center Engineer Week. ITP Winter Show 2019"
 front-page: true
 ---
 

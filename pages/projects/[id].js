@@ -15,8 +15,30 @@ export default function Post({ postData }) {
       </Head>
       <article className={postStyle.posts}>
         <img src={postData.thumbnail} alt={postData.title} />
-        <h2 className={utilStyles.heading2Xl}>{postData.title}</h2>
-        <br />
+        <section className={postStyle.intro}>
+          <div className={postStyle.introLeft}>
+            <h2 className={utilStyles.headingLg}>{postData.title}</h2>
+            <p className={utilStyles.textSm}> {postData.description} </p>
+          </div>
+          <div className={postStyle.introRight}>
+            <ul className={utilStyles.list}>
+              <li className={utilStyles.textSm}>{postData.year}</li>
+              <li className={utilStyles.textSm}>
+                {`Duration: ${postData.duration}`}
+              </li>
+              <li
+                className={utilStyles.textSm}
+              >{`My role: ${postData.role}`}</li>
+              <li
+                className={utilStyles.textSm}
+              >{`Skill set: ${postData.skill}`}</li>
+              <li className={utilStyles.textSm}>
+                {postData.award ? `Exhibition/Award: ${postData.award}` : ""}
+              </li>
+            </ul>
+          </div>
+        </section>
+
         <div dangerouslySetInnerHTML={{ __html: postData.contentHTML }} />
       </article>
       <style jsx global>

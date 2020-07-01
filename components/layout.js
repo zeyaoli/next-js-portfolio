@@ -8,36 +8,46 @@ function Layout({ children, about }) {
   return (
     <>
       <Meta />
-      <div className={styles.container}>
-        <header className={styles.header}>
-          {about ? (
-            <>
+      <header className={styles.header}>
+        {about ? (
+          <>
+            <div className={styles.headerLeft}>
               <Link href="/">
                 <a>
                   <h1 className={utilStyles.headingLightMd}>Zeyao Li</h1>
                 </a>
               </Link>
-              <h1
-                className={`${utilStyles.headingLightMd} ${utilStyles.lightText}`}
-              >
-                About
-              </h1>
-            </>
-          ) : (
-            <>
+            </div>
+            <div className={styles.headerRight}>
+              <a>
+                <h1
+                  className={`${utilStyles.headingLightMd} ${utilStyles.lightText}`}
+                >
+                  About
+                </h1>
+              </a>
+            </div>
+          </>
+        ) : (
+          <>
+            <div className={styles.headerLeft}>
               <Link href="/">
                 <a>
                   <h1 className={utilStyles.headingLightMd}>Zeyao Li</h1>
                 </a>
               </Link>
+            </div>
+            <div className={styles.headerRight}>
               <Link href="/about">
                 <a>
                   <h1 className={utilStyles.headingLightMd}>About</h1>
                 </a>
               </Link>
-            </>
-          )}
-        </header>
+            </div>
+          </>
+        )}
+      </header>
+      <div className={styles.container}>
         <main className={styles.innerContainer}>{children}</main>
       </div>
       <Footer />
