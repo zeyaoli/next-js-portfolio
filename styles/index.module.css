@@ -3,19 +3,22 @@
   display: flex;
 }
 .introduction {
-  width: 50%;
+  width: 66.666%;
   padding: 0 1rem;
 }
 
 .social {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
   padding: 0 1rem;
   display: flex;
-  justify-content: space-evenly;
-  width: 50%;
+  justify-content: center;
   align-items: center;
 }
 
 .social a {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   border-radius: 20px;
   border-style: solid;
   border-width: 1px;
@@ -35,7 +38,7 @@
 }
 
 .projects li {
-  width: 42vw;
+  width: 30%;
   margin: 0.5rem;
   padding: 0.25rem;
   display: flex;
@@ -69,7 +72,23 @@
 
 .archive {
   display: block;
-  float: right;
+  /* float: right; */
   padding: 1rem;
   color: #6c6c6c;
+}
+
+@media (max-width: 767.98px) {
+  .introduction {
+    width: 100%;
+  }
+  .projects li {
+    width: 100%;
+  }
+
+  .social {
+    flex-direction: column;
+  }
+  .social a {
+    margin-top: 1rem;
+  }
 }

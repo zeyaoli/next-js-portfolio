@@ -28,16 +28,23 @@ export default function Home({ allPostsData }) {
           <p className={utilStyles.headingLg}>
             Zeyao Li is a Design Engineer studying at NYU ITP. He focuses on
             using web technology to enhance human relationships with the help of
-            Internet. <br />
-            Born in Beijing, worked and studied in Prague, Seattle, and
-            Shanghai, Zeyao is now working and living in New York City.
+            Internet. Born in Beijing, worked and studied in Prague, Seattle,
+            and Shanghai, Zeyao is now working and living in New York City.{" "}
+            <br />
+            <br />I am currently looking for a 2020 Fall/Winter Internship or a
+            2021 Full-time position. Feel free to chat with me{" "}
+            <a
+              href="#social"
+              style={{
+                border: `solid 1px`,
+                borderRadius: `15px`,
+                display: `inline`,
+                padding: `3px 15px`,
+              }}
+            >
+              here
+            </a>
           </p>
-        </div>
-        <div className={indexStyles.social}>
-          <a href="#">Twitter</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">GitHub</a>
-          <a href="#">Are.na</a>
         </div>
       </section>
       <section>
@@ -62,10 +69,19 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-        <div className={indexStyles.archive}>
+        {/* <div className={indexStyles.archive}>
           <Link href="/">
             <a> Archive →︎</a>
           </Link>
+        </div> */}
+      </section>
+
+      <section>
+        <div className={indexStyles.social} id="social">
+          <a href="https://twitter.com/lizeyao">Twitter</a>
+          <a href="https://www.linkedin.com/in/zeyaoli/">LinkedIn</a>
+          <a href="https://github.com/zeyaoli">GitHub</a>
+          <a href="https://www.are.na/zeyao-li">Are.na</a>
         </div>
       </section>
 

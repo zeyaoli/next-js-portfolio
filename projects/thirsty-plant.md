@@ -8,7 +8,6 @@ thumbnail: "/thirsty_plant_cover.jpg"
 role: "Individual Project"
 skill: "#API #Node.js #ProductDesign #Arduino"
 award: "Liberty Science Center Engineer Week. ITP Winter Show 2019"
-front-page: true
 ---
 
 ## Ideation:

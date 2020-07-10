@@ -39,3 +39,9 @@
   padding-right: 1.5rem;
   color: #fffef2;
 }
+
+@media (max-width: 767.98px) {
+  .innerContainer {
+    padding: 0.5rem;
+  }
+}

@@ -5,7 +5,6 @@ description: "hi stranger is an exploration of collectively building a conversat
 thumbnail: "/hi-stranger-thumbnail.png"
 category: "engineer"
 skill: "#MongoDB #Socket.io #JavaScript"
-front-page: true
 ---
 
 _can you keep the conversation going even if it's semi-invisible?_

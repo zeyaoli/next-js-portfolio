@@ -8,5 +8,4 @@ thumbnail: "/movieQ-thumbnail.png"
 role: "UX Designer, UI Designer, Ideation"
 skill: "#AdobeXD #UX #WebDesign"
 award: "Adobe x Netflix Creative Jam Honorable Mentions"
-front-page: true
 ---

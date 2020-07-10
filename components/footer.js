@@ -3,7 +3,7 @@ import footerStyles from "./footer.module.css";
 
 export default function Footer() {
   return (
-    <footer className={footerStyles.footer}>
+    <footer className={footerStyles.footer} id="footer">
       <div className={footerStyles.footerLeft}>
         <p className={utilStyles.footerText}>Zeyao Li © 2020</p>
       </div>
