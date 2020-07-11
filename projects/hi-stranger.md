@@ -4,7 +4,7 @@ date: "2019-12-16"
 description: "hi stranger is an exploration of collectively building a conversation without context in order to express creativity."
 thumbnail: "/hi-stranger-thumbnail.png"
 category: "engineer"
-skill: "#MongoDB #Socket.io #JavaScript"
+skill: "#MongoDB #Socket.io #FullStack"
 ---
 
 _can you keep the conversation going even if it's semi-invisible?_

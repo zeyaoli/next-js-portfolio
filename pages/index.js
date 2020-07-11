@@ -18,6 +18,26 @@ export async function getStaticProps() {
   };
 }
 export default function Home({ allPostsData }) {
+  const listItems = allPostsData.map(
+    ({ id, title, description, thumbnail, skill }) => (
+      <li className={utilStyles.listItem} key={id}>
+        <Link href="/projects/[id]" as={`/projects/${id}`}>
+          <div
+            style={{ backgroundImage: `url(${thumbnail})` }}
+            className={indexStyles.image}
+          ></div>
+        </Link>
+        <Link href="/projects/[id]" as={`/projects/${id}`}>
+          <a className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}>
+            {title}
+          </a>
+        </Link>
+        <div className={utilStyles.textLightSm}>{skill}</div>
+        <div className={utilStyles.textSm}>{description}</div>
+      </li>
+    )
+  );
+
   return (
     <Layout>
       <Head>
@@ -49,25 +69,7 @@ export default function Home({ allPostsData }) {
       </section>
       <section>
         <ul className={`${utilStyles.list} ${indexStyles.projects}`}>
-          {allPostsData.map(({ id, title, description, thumbnail, skill }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href="/projects/[id]" as={`/projects/${id}`}>
-                <div
-                  style={{ backgroundImage: `url(${thumbnail})` }}
-                  className={indexStyles.image}
-                ></div>
-              </Link>
-              <Link href="/projects/[id]" as={`/projects/${id}`}>
-                <a
-                  className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}
-                >
-                  {title}
-                </a>
-              </Link>
-              <div className={utilStyles.textLightSm}>{skill}</div>
-              <div className={utilStyles.textMd}>{description}</div>
-            </li>
-          ))}
+          {listItems}
         </ul>
         {/* <div className={indexStyles.archive}>
           <Link href="/">
