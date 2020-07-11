@@ -28,7 +28,23 @@
   padding: 1rem;
 }
 
+.profile_detail li {
+  font-size: 0.9rem;
+}
+
 .about_container a {
   text-decoration: underline;
   color: #1a6050;
+}
+
+@media (max-width: 767.98px) {
+  .profile_info {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .profile_detail {
+    width: 100%;
+    padding: 1rem;
+  }
 }
