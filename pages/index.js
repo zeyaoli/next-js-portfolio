@@ -7,7 +7,7 @@ import indexStyles from "../styles/index.module.css";
 
 import { getSortedPostsData } from "../lib/posts";
 
-const bgColor = "#FFE52C";
+const bgColor = "#f3f1e9";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
