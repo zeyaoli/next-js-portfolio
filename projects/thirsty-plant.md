@@ -2,18 +2,29 @@
 title: "Thirsty Plant"
 year: "2019"
 date: "2019-12-17"
-duration: "4 Weeks"
+duration: "3 Weeks"
 description: " A Twitter API controlled light installation on criticizing people's addiction of social media."
 thumbnail: "/thirsty-plant.gif"
 role: "Individual Project"
-skill: "#API #Node.js #ProductDesign #Arduino"
+skill: "#API #Node.js #ProductDesign #LED"
 award: "Liberty Science Center Engineer Week. ITP Winter Show 2019"
 ---
 
-## Ideation:
+## About:
 
-Originally, I thought about the gesture SWIPE on our phone. I'm interested how people turned a single gesture into something related to consumerism and promotion (e.g. swipe to watch a Youtube video or get to a link to an item for sell). However, the sketches that I came up with were not convincing enough for the criticism of swiping. Yet I kept thinking about the shape of plant that I drew on my initial sketch. Maybe I could create something with the plant because it looks so organic and common in our life? I asked myself.
+✨"Thirsty Plant" is a Twitter API controlled light installation. The plant changes its color and shapes only based on my twitter account activities (likes and followers), just like how teenagers treat social media as an essential part of their lives.🌱
 
-Then I had the idea of making the plant thirsty for water, just like how people are thirsty for love/attention/approval on social media.
+## Link:
 
-I got some wasted cardboard from the NYU MakerSpace, where I work at every day, and made a cardboard installation out of it. From the process of making this cardboard leaf, instead of cutting it into a weird leaf shape, I realized that it will be easier to laser cut a whole piece of leaf and place the LED light above it. Then cut a few pieces to mask the "fragment" part on top of the LED strip. I showed my prototype to a few friends and they all like how it looks like so far!
+- Read about the making process (ideation, research, challenge, reference, budget...): [here](https://www.notion.so/zeyaoli/Full-Documentation-533c7355d0b146a284f5887fe8b94573).
+- Read about the code on Github: [here](https://github.com/zeyaoli/thirsty-plant).
+
+## How:
+
+Thirsty Plant is built with [200 NeoPixel LED lights](https://www.amazon.com/ALITOVE-Addressable-Programmable-Waterproof-Raspberry/dp/B07FVR6W71?pd_rd_w=Xrm6G&pf_rd_p=dc5d20a9-bdae-4e7d-8edc-f16a5a74b8eb&pf_rd_r=6YHM85294784W6VETWC1&pd_rd_r=add01e9b-0c26-4c8f-83ae-1b936c976822&pd_rd_wg=kWLso&pd_rd_i=B07FVR6W71&ref_=pd_bap_d_rp_1_8_t), [a teensy 3.2 board](https://www.amazon.com/Teensy-3-2-with-pins/dp/B015QUPO5Y?pd_rd_w=Xrm6G&pf_rd_p=dc5d20a9-bdae-4e7d-8edc-f16a5a74b8eb&pf_rd_r=6YHM85294784W6VETWC1&pd_rd_r=add01e9b-0c26-4c8f-83ae-1b936c976822&pd_rd_wg=kWLso&pd_rd_i=B015QUPO5Y&ref_=pd_bap_d_rp_1_9_t) (which is a micro controller that's similar to Arduino), a 5V 60A DC Switch Power, and laser-cutting plywood boards that are connected with fishing line. Software wise, I built it with [Twitter API](https://developer.twitter.com/en/docs/basics/getting-started), and serial port connection with the Teensy board (both are written in Node.js). I used [ngrok](https://ngrok.com/) for transferring my localhost to public URL.
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/381600338" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+![Thirst Plant Image 1](/thirsty-plant/thirsty_plant_1.jpg)
+
+![Liberty Science Center Exhibition](/thirsty-plant/liberty_center.jpeg)
