@@ -6,7 +6,7 @@ duration: "3 Days"
 description: "movieQ is a social and movie streaming platform that connects LGBTQ+ community members through movies. "
 thumbnail: "/movieQ-thumbnail.png"
 role: "UX Designer, UI Designer, Ideation"
-skill: "#AdobeXD #UX #WebDesign"
+skill: "#AdobeXD #UX #WebDesign #ProductDesign"
 award: "Adobe x Netflix Creative Jam Honorable Mentions"
 ---
 
@@ -39,13 +39,19 @@ LGBTQ people often suffer from isolation and disconnection from the LGBTQ commun
 
 movieQ puts our members in the first place, so when we delivered our user flow, we decided to let the flow go to user profiles from most of the pages. When signed in, there will be profiles displayed on the front page based on the recommendations. Users can also explore other profiles from the movie details and community page. The flow is designed to let users find other people through the website with movies as an icebreaker and a communal bond.
 
+![Meet new friends](/movieQ/movieQ1.gif)
+
 ### Meet New Friends
 
 As a social and streaming platform, movieQ helps users to find other LGBT-movie lovers within a few touches. After adding others as friends, users can invite them to enjoy a movie together and discuss the latest acclaimed movie they both love.
 
+![Group function](/movieQ/movieQ2.gif)
+
 ### Share within Community
 
 Finding people with similar tastes can never be easy, but movieQ provides multiple communities that allow users to chat with other members. We want people to find a sense of community through joining discussions.
+
+![Watch Together](/movieQ/movieQ3.gif)
 
 ### Watch Together
 

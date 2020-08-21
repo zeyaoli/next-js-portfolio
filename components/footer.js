@@ -5,7 +5,9 @@ export default function Footer() {
   return (
     <footer className={footerStyles.footer} id="footer">
       <div className={footerStyles.footerLeft}>
-        <p className={utilStyles.footerText}>Zeyao Li © 2020</p>
+        <p className={utilStyles.footerText}>
+          Zeyao Li © 2020 Built with Next.js
+        </p>
       </div>
       <div className={footerStyles.footerRight}>
         <a href="mailto:zeyao.li@nyu.edu" className={utilStyles.footerText}>

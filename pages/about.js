@@ -19,8 +19,9 @@ export default function AboutPage() {
 
         <div className={aboutStyles.profile_info}>
           <p className={utilStyles.textMd}>
-            I am a design engineer and educator studying at NYU's Interactive
-            Telecommunications Program. Previously, I worked as a Counselor at{" "}
+            I am a design engineer, product designer, and educator studying at
+            NYU's Interactive Telecommunications Program. Previously, I worked
+            as a Technical Counselor at{" "}
             <a href="https://itp.nyu.edu/camp2020/">ITP Camp</a>, a Design Lab
             Coordinator at{" "}
             <a href="http://makerspace.engineering.nyu.edu/">NYU MakerSpace</a>,

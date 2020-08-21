@@ -77,6 +77,22 @@
   color: #6c6c6c;
 }
 
+@media (max-width: 1024px) {
+  .introduction {
+    width: 100%;
+  }
+  .projects li {
+    width: 45%;
+  }
+
+  /* .social {
+    flex-direction: column;
+  }
+  .social a {
+    margin-top: 1rem;
+  } */
+}
+
 @media (max-width: 767.98px) {
   .introduction {
     width: 100%;

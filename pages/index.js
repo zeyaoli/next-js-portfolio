@@ -46,11 +46,9 @@ export default function Home({ allPostsData }) {
       <section className={indexStyles.info}>
         <div className={indexStyles.introduction}>
           <p className={utilStyles.headingLg}>
-            Zeyao Li is a Design Engineer studying at NYU ITP. He focuses on
-            using web technology to enhance human relationships with the help of
-            Internet. Born in Beijing, worked and studied in Prague, Seattle,
-            and Shanghai, Zeyao is now working and living in New York City.{" "}
-            <br />
+            Zeyao Li is a <u>Design Engineer</u> and <u>Product Designer</u>{" "}
+            combo studying at NYU ITP. He designs and programs websites and
+            physical products for social good and fun. <br />
             <br />I am currently looking for a 2020 Fall/Winter Internship or a
             2021 Full-time position. Feel free to chat with me{" "}
             <a
@@ -59,7 +57,7 @@ export default function Home({ allPostsData }) {
                 border: `solid 1px`,
                 borderRadius: `15px`,
                 display: `inline`,
-                padding: `3px 15px`,
+                padding: `2px 8px`,
               }}
             >
               here

@@ -2,24 +2,28 @@
   font-family: "SpaceGroteskRegular";
   src: url("/webfont/SpaceGrotesk-Regular.woff2") format("woff2"),
     url("/webfont/SpaceGrotesk-Regular.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "SpaceGroteskSemiBold";
   src: url("/webfont/SpaceGrotesk-SemiBold.woff2") format("woff2"),
     url("/webfont/SpaceGrotesk-SemiBold.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "SpaceGroteskMedium";
   src: url("/webfont/SpaceGrotesk-Medium.woff2") format("woff2"),
     url("/webfont/SpaceGrotesk-Medium.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "SpaceGroteskLight";
   src: url("/webfont/SpaceGrotesk-Light.woff2") format("woff2"),
     url("/webfont/SpaceGrotesk-Light.woff") format("woff");
+  font-display: swap;
 }
 
 html,

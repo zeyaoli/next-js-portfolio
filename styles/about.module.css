@@ -37,6 +37,18 @@
   color: #1a6050;
 }
 
+@media (max-width: 1024px) {
+  .profile_info {
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .profile_detail {
+    width: 80%;
+    padding: 1rem;
+  }
+}
+
 @media (max-width: 767.98px) {
   .profile_info {
     width: 100%;
