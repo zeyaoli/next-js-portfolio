@@ -1,6 +1,6 @@
 ---
 title: "Hi Stranger"
-date: "2019-12-16"
+date: "2020-4-1"
 duration: "2 Weeks"
 description: "hi stranger is an exploration of collectively building a conversation without context in order to express creativity."
 thumbnail: "/hi-stranger-thumbnail.png"

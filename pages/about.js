@@ -29,9 +29,10 @@ export default function AboutPage() {
             <br />
             As a Design Engineer (some people call it UX Engineer, UX
             developer...), I mainly work on building interactive web experiences
-            that implement the good design. I am confident working in a
+            that implement the excellent design. I am confident working in a
             fast-paced environment that has a cross-disciplinary team with
-            multiple cultural backgrounds. <br /> <br />
+            multiple cultural backgrounds.
+            <br /> <br />
             My web development work includes tools like HTML, CSS, JavaScript
             Framework like React/Next.js, p5.js, and a-frame, as well as some
             back-end technology, such as WebSocket, Node.js/Express.js, and
