@@ -46,26 +46,25 @@ export default function Home({ allPostsData }) {
       <section className={indexStyles.info}>
         <div className={indexStyles.introduction}>
           <p className={utilStyles.headingLg}>
-            Zeyao Li is a <u>Design Engineer</u> and <u>Product Designer</u>{" "}
-            combo studying at NYU ITP. He designs and programs websites and
-            physical products for social good and fun. <br />
-            <br />I am currently looking for a 2020 Fall/Winter Internship or a
-            2021 Full-time position. Feel free to chat with me{" "}
+            👋 Zeyao Li is a designer and developer based in New York City. <br />
+           He specializes in building and designing websites, installations, <br />
+           and making the Internet as his creative playground. <br />
+           I am looking for a full-time position in NYC/remote. {" "}
             <a
               href="#social"
               style={{
-                border: `solid 1px`,
-                borderRadius: `15px`,
-                display: `inline`,
-                padding: `2px 8px`,
+                borderBottom: `solid 1px`,
               }}
             >
-              here
+              Chat with me
             </a>
           </p>
         </div>
       </section>
-      <section>
+      <section className={indexStyles.projectSection}>
+        <div className={indexStyles.sectionTitle}>
+          <h3>Selected Work</h3>
+        </div>
         <ul className={`${utilStyles.list} ${indexStyles.projects}`}>
           {listItems}
         </ul>

@@ -1,10 +1,24 @@
 .info {
   margin: 1rem 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .introduction {
-  width: 66.666%;
   padding: 0 1rem;
+  color: #1A6050;
+}
+
+.sectionTitle{
+  margin: 0 1rem;
+  border-bottom: 1px solid #1A6050;
+}
+.sectionTitle h3{
+  margin: 0;
+}
+
+.projectSection{
+  margin-top: 4rem;
 }
 
 .social {

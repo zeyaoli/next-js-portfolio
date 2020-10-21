@@ -25,8 +25,9 @@
 
 .headingLg {
   font-family: SpaceGroteskRegular, sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.4;
+  font-size: 1.875rem;
+  line-height: 150%;
+  letter-spacing: 0.005em;
   margin: 1rem 0;
 }
 
