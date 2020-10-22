@@ -21,13 +21,13 @@ export default function Home({ allPostsData }) {
   const listItems = allPostsData.map(
     ({ id, title, description, thumbnail, skill }) => (
       <li className={utilStyles.listItem} key={id}>
-        <Link href="/projects/[id]" as={`/projects/${id}`}>
+        <Link href='/projects/[id]' as={`/projects/${id}`}>
           <div
             style={{ backgroundImage: `url(${thumbnail})` }}
             className={indexStyles.image}
           ></div>
         </Link>
-        <Link href="/projects/[id]" as={`/projects/${id}`}>
+        <Link href='/projects/[id]' as={`/projects/${id}`}>
           <a className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}>
             {title}
           </a>
@@ -45,13 +45,15 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={indexStyles.info}>
         <div className={indexStyles.introduction}>
-          <p className={utilStyles.headingLg}>
-            👋 Zeyao Li is a designer and developer based in New York City. <br />
-           He specializes in building and designing websites, installations, <br />
-           and making the Internet as his creative playground. <br />
-           I am looking for a full-time position in NYC/remote. {" "}
+          <p className={utilStyles.headingLightLg}>
+            👋 <span className={utilStyles.headingBoldLg}>Zeyao Li</span> is a
+            designer and developer based in New York City. <br />
+            He specializes in building and designing websites, installations,{" "}
+            <br />
+            and making the Internet as his creative playground. <br />I am
+            looking for a full-time position in NYC/remote.{" "}
             <a
-              href="#social"
+              href='#social'
               style={{
                 borderBottom: `solid 1px`,
               }}
@@ -76,11 +78,11 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section>
-        <div className={indexStyles.social} id="social">
-          <a href="https://twitter.com/lizeyao">Twitter</a>
-          <a href="https://www.linkedin.com/in/zeyaoli/">LinkedIn</a>
-          <a href="https://github.com/zeyaoli">GitHub</a>
-          <a href="https://www.are.na/zeyao-li">Are.na</a>
+        <div className={indexStyles.social} id='social'>
+          <a href='https://twitter.com/lizeyao'>Twitter</a>
+          <a href='https://www.linkedin.com/in/zeyaoli/'>LinkedIn</a>
+          <a href='https://github.com/zeyaoli'>GitHub</a>
+          <a href='https://www.are.na/zeyao-li'>Are.na</a>
         </div>
       </section>
 

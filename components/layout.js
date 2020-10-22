@@ -12,7 +12,7 @@ function Layout({ children, about }) {
         {about ? (
           <>
             <div className={styles.headerLeft}>
-              <Link href="/">
+              <Link href='/'>
                 <a>
                   <h1 className={utilStyles.headingLightMd}>Zeyao Li</h1>
                 </a>
@@ -31,14 +31,14 @@ function Layout({ children, about }) {
         ) : (
           <>
             <div className={styles.headerLeft}>
-              <Link href="/">
+              <Link href='/'>
                 <a>
                   <h1 className={utilStyles.headingLightMd}>Zeyao Li</h1>
                 </a>
               </Link>
             </div>
             <div className={styles.headerRight}>
-              <Link href="/about">
+              <Link href='/about'>
                 <a>
                   <h1 className={utilStyles.headingLightMd}>About</h1>
                 </a>

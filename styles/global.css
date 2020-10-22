@@ -1,4 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant&display=swap");
+@font-face {
+  font-family: "OrticaLight";
+  src: url("/webfont/Ortica-Light.woff2") format("woff2"),
+    url("/webfont/Ortica-Light.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OrticaBold";
+  src: url("/webfont/Ortica-Bold.woff2") format("woff2"),
+    url("/webfont/Ortica-Bold.woff") format("woff");
+  font-display: swap;
+}
 
 @font-face {
   font-family: "SpaceGroteskRegular";
