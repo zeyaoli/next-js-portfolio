@@ -6,18 +6,18 @@
 }
 .introduction {
   padding: 0 1rem;
-  color: #1A6050;
+  color: #1a6050;
 }
 
-.sectionTitle{
+.sectionTitle {
   margin: 0 1rem;
-  border-bottom: 1px solid #1A6050;
+  border-bottom: 1px solid #1a6050;
 }
-.sectionTitle h3{
+.sectionTitle h3 {
   margin: 0;
 }
 
-.projectSection{
+.projectSection {
   margin-top: 4rem;
 }
 
