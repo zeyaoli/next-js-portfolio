@@ -57,6 +57,24 @@
   margin: 1rem 0;
 }
 
+.headingLightLgSans {
+  /* font-family: OrticaLight, serif; */
+  font-family: SpaceGroteskLight, sans-serif;
+  font-size: 1.9rem;
+  line-height: 150%;
+  letter-spacing: 0.005em;
+  margin: 1rem 0;
+}
+
+.headingLightMdSans {
+  /* font-family: OrticaLight, serif; */
+  font-family: SpaceGroteskLight, sans-serif;
+  font-size: 1.5rem;
+  line-height: 150%;
+  letter-spacing: 0.005em;
+  margin: 1rem 0;
+}
+
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
