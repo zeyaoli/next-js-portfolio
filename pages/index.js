@@ -47,13 +47,11 @@ export default function Home({ allPostsData }) {
         <div className={indexStyles.introduction}>
           <p className={utilStyles.headingLightLg}>
             👋 <span className={utilStyles.headingBoldLg}>Zeyao Li</span> is a
-            web developer and designer in New York City. <br />
+            NYC-based web developer, designer, and educator, working at <a href="https://oak.is"> Oak Studios</a>. 
             He specializes in designing and building full-stack creative web
             apps with tools like <b>Figma</b>, <b>React</b>, <b>Web Socket</b>,
             and <b>Node.js</b>.
-            <br />
-            Currently, Zeyao is looking for a full-time developer position in
-            NYC/remote.{" "}
+            He is always down to grab a cup of coffee (virtually).{" "}
             <a
               href='#social'
               style={{

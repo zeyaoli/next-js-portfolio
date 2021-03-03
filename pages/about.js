@@ -14,14 +14,14 @@ export default function AboutPage() {
       </Head>
       <div className={aboutStyles.about_container}>
         <div className={aboutStyles.profile_info}>
-          <p className={utilStyles.textMd}>
+          <p className={utilStyles.bodyLong}>
             Hi 👋, thank you for being interested in who I am.{" "}
             <b>I am Zeyao, a creative web developer, designer, and educator.</b>{" "}
-            Currently, I am pursuing my master's degree in Interactive
+            Currently, I am a Frontend Engineer at <a href="https://oak.is">Oak Studios LLC</a>, as well as pursuing my master's degree in Interactive
             Telecommunication Program at NYU Tisch. Previously, I taught web
             development workshops at{" "}
-            <a href='https://itp.nyu.edu/camp2020/'>ITP Camp</a>, and worked a
-            Producer at <a href='https://www.rga.com/'>R/GA</a>. <br /> <br />
+            <a href='https://itp.nyu.edu/camp2020/'>ITP Camp</a>, and worked as
+            a Producer at <a href='https://www.rga.com/'>R/GA</a>. <br /> <br />
             As a queer developer, my work contains websites related to
             relationships, dating culture, social media, and sexuality. My work
             had been exhibited at Liberty Science Center, Maker Faire NY,
@@ -38,7 +38,7 @@ export default function AboutPage() {
             <a href='https://soundcloud.com/nyupraguecast'> PragueCast</a> in
             Prague.
             <br />
-            <br />I am currently actively looking for a full-time web developer
+            <br />I am actively looking for a full-time web developer
             position in the NYC area or remote. Let's grab a coffee (over zoom
             or wherever on the Internet space)!
           </p>
@@ -68,7 +68,7 @@ export default function AboutPage() {
               </span>
               <span className={utilStyles.headingLightMdSans}>
                 — UX / UI Design, Prototyping, 3D Printing, Laser Cutting,
-                Photogrammetry, Wireframing,
+                Photogrammetry, Wireframing
               </span>
             </div>
           </div>

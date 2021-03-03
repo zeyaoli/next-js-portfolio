@@ -32,13 +32,16 @@
 }
 
 .headingLgNoMargin {
-  font-family: SpaceGroteskRegular, sans-serif;
+  /* font-family: SpaceGroteskRegular, sans-serif; */
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.4rem;
   line-height: 1.4;
 }
 
 .headingBoldLg {
-  font-family: SpaceGroteskSemiBold, serif;
+  /* font-family: SpaceGroteskSemiBold, serif; */
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
   letter-spacing: 0.005em;
   line-height: 1.4;
   font-size: 1.875rem;
@@ -51,7 +54,7 @@
   font-family: OrticaLight, serif;
   /* font-family: SpaceGroteskLight, sans-serif; */
   line-height: 1.4;
-  font-size: 1.95rem;
+  font-size: 1.9rem;
   line-height: 150%;
   letter-spacing: 0.005em;
   margin: 1rem 0;
@@ -68,7 +71,9 @@
 
 .headingLightMdSans {
   /* font-family: OrticaLight, serif; */
-  font-family: SpaceGroteskLight, sans-serif;
+  /* font-family: SpaceGroteskLight, sans-serif; */
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
   font-size: 1.5rem;
   line-height: 150%;
   letter-spacing: 0.005em;
@@ -81,7 +86,7 @@
 }
 
 .headingBoldMd {
-  font-family: SpaceGroteskSemiBold, sans-serif;
+  /* font-family: SpaceGroteskSemiBold, sans-serif; */
   /* font-family: OrticaBold, serif; */
   letter-spacing: 0.005em;
   font-size: 1.2rem;
@@ -89,7 +94,9 @@
 }
 
 .headingLightMd {
-  font-family: SpaceGroteskLight, sans-serif;
+  /* font-family: SpaceGroteskLight, sans-serif; */
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -126,25 +133,38 @@
 }
 
 .footerText {
-  font-family: SpaceGroteskLight, sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  /* font-family: SpaceGroteskLight, sans-serif; */
+  font-weight: 300;
   font-size: 0.9rem;
   line-height: 0.9;
 }
 
 .textLightSm {
-  font-family: SpaceGroteskLight, sans-serif;
+  /* font-family: SpaceGroteskLight, sans-serif; */
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
   font-size: 0.8rem;
   font-style: italic;
 }
 
 .textMd {
-  font-family: SpaceGroteskRegular, sans-serif;
+  /* font-family: SpaceGroteskRegular, sans-serif; */
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1rem;
 }
 
 .textSm {
-  font-family: SpaceGroteskRegular, sans-serif;
+  /* font-family: SpaceGroteskRegular, sans-serif; */
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 0.8rem;
+}
+
+.bodyLong{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
 }
 
 @media (max-width: 767.98px) {

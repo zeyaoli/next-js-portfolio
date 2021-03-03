@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
 @font-face {
   font-family: "OrticaLight";
   src: url("/webfont/Ortica-Light.woff2") format("woff2"),
@@ -44,7 +46,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "SpaceGroteskRegular", sans-serif;
+  /* font-family: "SpaceGroteskRegular", sans-serif; */
+  font-family: 'IBM Plex Sans', sans-serif;
   line-height: 1.6;
   font-size: 18px;
   width: 100%;
