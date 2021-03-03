@@ -1,7 +1,7 @@
 ---
 title: "movieQ"
 year: "2020"
-date: "2020-6-20"
+date: "2020-3-20"
 duration: "3 Days"
 description: "movieQ is a social and movie streaming platform that connects LGBTQ+ community members through movies. "
 thumbnail: "/movieQ-thumbnail.png"

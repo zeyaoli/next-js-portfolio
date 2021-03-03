@@ -4,7 +4,7 @@ year: "2020"
 date: "2020-9-20"
 duration: "2 Weeks"
 description: "A Tinder clone that contains 100 machine-learning generated dating profiles and stories that I 'encountered' before "
-thumbnail: "/to-100-boys-thumbnail.png"
+thumbnail: "/to-100-boys-thumbnail.webp"
 role: "Web designer and developer, Data collection, Ideation"
 skill: "#React #MaterialUI #Front-end #RunwayML"
 ---

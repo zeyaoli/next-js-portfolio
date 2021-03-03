@@ -34,8 +34,9 @@
 .headingLgNoMargin {
   /* font-family: SpaceGroteskRegular, sans-serif; */
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.4rem;
-  line-height: 1.4;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  margin-top: 1rem;
 }
 
 .headingBoldLg {
@@ -144,7 +145,7 @@
   /* font-family: SpaceGroteskLight, sans-serif; */
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-style: italic;
 }
 
@@ -157,7 +158,7 @@
 .textSm {
   /* font-family: SpaceGroteskRegular, sans-serif; */
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .bodyLong{

@@ -4,9 +4,9 @@ year: "2020"
 date: "2020-9-21"
 duration: "2 Weeks"
 description: "A Cybersex Voice Chat Experience"
-thumbnail: "/cyber-thumbnail.png"
+thumbnail: "/cyber-thumbnail.webp"
 role: "Full-stack Web development, UX Design, Conversation Design Ideation"
-skill: "#React #Dialogflow #FullStackWebDev #Socket #UXDesign"
+skill: "#React #Dialogflow #FullStackWebDev #WebSocket #UXDesign"
 ---
 
 This project is the final project for 'Hello Computer.' Tina Rungsawang and I created a voice chatbot that allows users to have cybersex with it.
