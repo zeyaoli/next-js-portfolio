@@ -43,7 +43,7 @@ export default function AboutPage() {
             or wherever on the Internet space)!
           </p>
           <div className={aboutStyles.profile_pic}>
-            <img src='./about/headshot.jpg' alt='headshot' id='headshot' />
+            <img src='./about/profile.webp' alt='headshot' id='headshot' />
           </div>
         </div>
         <div className={aboutStyles.profile_skills}>
