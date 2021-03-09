@@ -26,14 +26,17 @@ export default function Home({ allPostsData }) {
             style={{ backgroundImage: `url(${thumbnail})` }}
             className={indexStyles.image}
           ></div>
+          {/* <img alt={thumbnail} src={thumbnail} loading="lazy" /> */}
         </Link>
         <Link href='/projects/[id]' as={`/projects/${id}`}>
-          <a className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}>
-            {title}
-          </a>
+          <div className={indexStyles.projectDescription}>
+            <a className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}>
+              {title}
+            </a>
+            <div className={utilStyles.textSm}>{description}</div>
+            <div className={utilStyles.textLightSm}>{skill}</div>
+          </div>
         </Link>
-        <div className={utilStyles.textLightSm}>{skill}</div>
-        <div className={utilStyles.textSm}>{description}</div>
       </li>
     )
   );

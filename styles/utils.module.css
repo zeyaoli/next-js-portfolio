@@ -34,9 +34,10 @@
 .headingLgNoMargin {
   /* font-family: SpaceGroteskRegular, sans-serif; */
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.75rem;
-  line-height: 2.25rem;
-  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  /* margin-top: 1rem; */
 }
 
 .headingBoldLg {

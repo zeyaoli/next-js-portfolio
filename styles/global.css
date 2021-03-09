@@ -13,7 +13,7 @@
     url("/webfont/Ortica-Bold.woff") format("woff");
   font-display: swap;
 }
-
+/* 
 @font-face {
   font-family: "SpaceGroteskRegular";
   src: url("/webfont/SpaceGrotesk-Regular.woff2") format("woff2"),
@@ -40,7 +40,7 @@
   src: url("/webfont/SpaceGrotesk-Light.woff2") format("woff2"),
     url("/webfont/SpaceGrotesk-Light.woff") format("woff");
   font-display: swap;
-}
+} */
 
 html,
 body {
