@@ -50,16 +50,21 @@ export default function AboutPage() {
           <h2 className={utilStyles.headingLightLg}>Skills</h2>
           <div className={aboutStyles.skills_detail}>
             <div className={aboutStyles.skills_column}>
-              <span className={utilStyles.headingLightLg}>Programming </span>
+              <span className={utilStyles.headingLightLg}>Programming Languages</span>
               <span className={utilStyles.headingLightMdSans}>
-                — HTML/CSS, JavaScript, Git, React.js, Next.js, Node.js,
-                Express, MongoDB, Socket.io, Python
+                — HTML/CSS/SASS, JavaScript, TypeScript, Python, Java(Processing), Jekyll, Liquid
               </span>
             </div>
             <div className={aboutStyles.skills_column}>
-              <span className={utilStyles.headingLightLg}>Software </span>
+              <span className={utilStyles.headingLightLg}>Libraries/ Framework </span>
               <span className={utilStyles.headingLightMdSans}>
-                — Arduino, Adobe Suite, Figma, Sketch, Unity
+                — React.js, Next.js, Storybook, Node.js, Express.js, D3.js, p5.js, three.js, socket.io, MongoDB
+              </span>
+            </div>
+            <div className={aboutStyles.skills_column}>
+              <span className={utilStyles.headingLightLg}>Software / Tools </span>
+              <span className={utilStyles.headingLightMdSans}>
+                — Arduino, Adobe Suite, Figma, Git, NPM, Sketch, Webpack, Unity
               </span>
             </div>
             <div className={aboutStyles.skills_column}>
