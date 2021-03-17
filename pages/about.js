@@ -18,8 +18,8 @@ export default function AboutPage() {
             Hi 👋, thank you for being interested in who I am.{" "}
             <b>I am Zeyao, a creative web developer, designer, and educator.</b>{" "}
             Currently, I am a Frontend Engineer at <a href="https://oak.is">Oak Studios LLC</a>, as well as pursuing my master's degree in Interactive
-            Telecommunication Program at NYU Tisch. Previously, I taught web
-            development workshops at{" "}
+            Telecommunication Program at NYU Tisch. Previously, I was web
+            development instructor at{" "}
             <a href='https://itp.nyu.edu/camp2020/'>ITP Camp</a>, and worked as
             a Producer at <a href='https://www.rga.com/'>R/GA</a>. <br /> <br />
             As a queer developer, my work contains websites related to
@@ -38,8 +38,8 @@ export default function AboutPage() {
             <a href='https://soundcloud.com/nyupraguecast'> PragueCast</a> in
             Prague.
             <br />
-            <br />I am actively looking for a full-time web developer
-            position in the NYC area or remote. Let's grab a coffee (over zoom
+            <br />I am actively looking for a front-end developer
+            position and/or freelance web development projects in the NYC area or remote. You can find my resume/CV <a href="https://docs.google.com/document/d/126bJILgGepDddcDs6jiLrojiDb_Ec6aiBnOGcItrAiU/edit?usp=sharing">here</a>. Let's grab a coffee (over zoom
             or wherever on the Internet space)!
           </p>
           <div className={aboutStyles.profile_pic}>
