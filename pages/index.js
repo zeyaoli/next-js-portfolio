@@ -21,16 +21,18 @@ export default function Home({ allPostsData }) {
   const listItems = allPostsData.map(
     ({ id, title, description, thumbnail, skill }) => (
       <li className={utilStyles.listItem} key={id}>
-        <Link href='/projects/[id]' as={`/projects/${id}`}>
+        <Link href="/projects/[id]" as={`/projects/${id}`}>
           <div
             style={{ backgroundImage: `url(${thumbnail})` }}
             className={indexStyles.image}
           ></div>
           {/* <img alt={thumbnail} src={thumbnail} loading="lazy" /> */}
         </Link>
-        <Link href='/projects/[id]' as={`/projects/${id}`}>
+        <Link href="/projects/[id]" as={`/projects/${id}`}>
           <div className={indexStyles.projectDescription}>
-            <a className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}>
+            <a
+              className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}
+            >
               {title}
             </a>
             <div className={utilStyles.textSm}>{description}</div>
@@ -49,14 +51,14 @@ export default function Home({ allPostsData }) {
       <section className={indexStyles.info}>
         <div className={indexStyles.introduction}>
           <p className={utilStyles.headingLightLg}>
-            👋 <span className={utilStyles.headingBoldLg}>Zeyao Li</span> is a
-            NYC-based web developer, designer, and educator, working at <a href="https://oak.is"> Oak Studios</a>. 
-            He specializes in designing and building full-stack creative web
-            apps with tools like <b>Figma</b>, <b>React</b>, <b>Web Socket</b>,
-            and <b>Node.js</b>.
+            👋 <span className={utilStyles.headingLg}>Zeyao Li</span> is a
+            NYC-based web developer, designer, and educator, working at{" "}
+            <a href="https://oak.is"> Oak Studios</a>. He specializes in
+            designing and building full-stack creative web apps with tools like{" "}
+            <b>Figma</b>, <b>React</b>, <b>Web Socket</b>, and <b>Node.js</b>.
             He is always down to grab a cup of coffee (virtually).{" "}
             <a
-              href='#social'
+              href="#social"
               style={{
                 borderBottom: `solid 1px`,
               }}
@@ -81,11 +83,11 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section>
-        <div className={indexStyles.social} id='social'>
-          <a href='https://twitter.com/lizeyao'>Twitter</a>
-          <a href='https://www.linkedin.com/in/zeyaoli/'>LinkedIn</a>
-          <a href='https://github.com/zeyaoli'>GitHub</a>
-          <a href='https://www.are.na/zeyao-li'>Are.na</a>
+        <div className={indexStyles.social} id="social">
+          <a href="https://twitter.com/lizeyao">Twitter</a>
+          <a href="https://www.linkedin.com/in/zeyaoli/">LinkedIn</a>
+          <a href="https://github.com/zeyaoli">GitHub</a>
+          <a href="https://www.are.na/zeyao-li">Are.na</a>
         </div>
       </section>
 

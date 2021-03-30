@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className={footerStyles.footer} id="footer">
       <div className={footerStyles.footerLeft}>
         <p className={utilStyles.footerText}>
-          Zeyao Li © 2020 Built with Next.js
+          Zeyao Li © 2021 Built with Next.js
         </p>
       </div>
       <div className={footerStyles.footerRight}>
