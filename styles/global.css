@@ -39,11 +39,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    /* text-decoration: underline; */
-    color: #1a6050;
-}
-
 h1,
 h2,
 h3 {

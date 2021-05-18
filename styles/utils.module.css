@@ -139,9 +139,10 @@
 
 .textLightSm {
     font-family: "Inter", sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 0.75rem;
     font-style: italic;
+    color: rgba(34, 34, 34, 0.62);
 }
 
 .textMd {
@@ -152,6 +153,7 @@
 .textSm {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
+    color: rgba(34, 34, 34, 0.62);
 }
 
 .bodyLong {
