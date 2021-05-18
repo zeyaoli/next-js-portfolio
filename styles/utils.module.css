@@ -1,209 +1,196 @@
 .heading2Xl {
-  font-size: 2.5rem;
-  line-height: 1.2;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
-  margin: 1rem 0;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
 }
 
 .headingXl {
-  font-size: 2rem;
-  line-height: 1.3;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
-  margin: 1rem 0;
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
 }
 
 .headingLightXl {
-  font-family: SpaceGroteskLight, sans-serif;
-  font-size: 2rem;
-  line-height: 1.3;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
-  margin: 1rem 0;
+    font-family: SpaceGroteskLight, sans-serif;
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
 }
 
 .headingLg {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.005em;
-  line-height: 1.4;
-  font-size: 1.875rem;
-  line-height: 150%;
-  letter-spacing: 0.005em;
-  margin: 1rem 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+    line-height: 1.4;
+    font-size: 1.875rem;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    margin: 1rem 0;
 }
 
 .headingLgNoMargin {
-  /* font-family: SpaceGroteskRegular, sans-serif; */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  /* margin-top: 1rem; */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    /* margin-top: 1rem; */
 }
 
 .headingBoldLg {
-  /* font-family: SpaceGroteskSemiBold, serif; */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.005em;
-  line-height: 1.4;
-  font-size: 1.875rem;
-  line-height: 150%;
-  letter-spacing: 0.005em;
-  margin: 1rem 0;
-}
-
-.headingLightLg {
-  font-family: OrticaLight, serif;
-  /* font-family: SpaceGroteskLight, sans-serif; */
-  line-height: 1.4;
-  font-size: 1.9rem;
-  line-height: 150%;
-  letter-spacing: 0.005em;
-  margin: 1rem 0;
-}
-
-.headingLightLgSans {
-  /* font-family: OrticaLight, serif; */
-  font-family: SpaceGroteskLight, sans-serif;
-  font-size: 1.9rem;
-  line-height: 150%;
-  letter-spacing: 0.005em;
-  margin: 1rem 0;
-}
-
-.headingLightMdSans {
-  /* font-family: OrticaLight, serif; */
-  /* font-family: SpaceGroteskLight, sans-serif; */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 300;
-  font-size: 1.5rem;
-  line-height: 150%;
-  letter-spacing: 0.005em;
-  margin: 1rem 0;
-}
-
-.headingMd {
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-.headingBoldMd {
-  /* font-family: SpaceGroteskSemiBold, sans-serif; */
-  /* font-family: OrticaBold, serif; */
-  letter-spacing: 0.005em;
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-.headingLightMd {
-  /* font-family: SpaceGroteskLight, sans-serif; */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-.descriptionText {
-  font-size: 0.9rem;
-  line-height: 1.2;
-}
-
-.borderCircle {
-  border-radius: 9999px;
-}
-
-.colorInherit {
-  color: inherit;
-}
-
-.padding1px {
-  padding-top: 1px;
-}
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.listItem {
-  margin: 0 0 1.25rem;
-}
-
-.lightText {
-  color: #999;
-}
-
-.footerText {
-  font-family: "IBM Plex Sans", sans-serif;
-  /* font-family: SpaceGroteskLight, sans-serif; */
-  font-weight: 300;
-  font-size: 0.9rem;
-  line-height: 0.9;
-}
-
-.textLightSm {
-  /* font-family: SpaceGroteskLight, sans-serif; */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  font-style: italic;
-}
-
-.textMd {
-  /* font-family: SpaceGroteskRegular, sans-serif; */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1rem;
-}
-
-.textSm {
-  /* font-family: SpaceGroteskRegular, sans-serif; */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1rem;
-}
-
-.bodyLong {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 400;
-}
-
-@media (max-width: 767.98px) {
-  .headingLg {
-    font-size: 1rem;
-  }
-
-  .headingBoldLg {
-    /* font-family: SpaceGroteskSemiBold, serif; */
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     letter-spacing: 0.005em;
     line-height: 1.4;
-    font-size: 1.25rem;
+    font-size: 1.875rem;
     line-height: 150%;
     letter-spacing: 0.005em;
     margin: 1rem 0;
-  }
+}
 
-  .headingLightLg {
+.headingLightLg {
     font-family: OrticaLight, serif;
-    /* font-family: SpaceGroteskLight, sans-serif; */
     line-height: 1.4;
-    font-size: 1.25rem;
+    font-size: 1.9rem;
     line-height: 150%;
     letter-spacing: 0.005em;
     margin: 1rem 0;
-  }
+}
 
-  .textMd {
-    font-size: 0.85rem;
-  }
+.headingLightLgSans {
+    /* font-family: OrticaLight, serif; */
+    font-family: SpaceGroteskLight, sans-serif;
+    font-size: 1.9rem;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    margin: 1rem 0;
+}
 
-  .textLightSm {
-    font-size: 0.7rem;
-  }
+.headingLightMdSans {
+    /* font-family: OrticaLight, serif; */
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    margin: 1rem 0;
+}
+
+.headingMd {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.headingBoldMd {
+    letter-spacing: 0.005em;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.headingLightMd {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.descriptionText {
+    font-size: 0.9rem;
+    line-height: 1.2;
+}
+
+.borderCircle {
+    border-radius: 9999px;
+}
+
+.colorInherit {
+    color: inherit;
+}
+
+.padding1px {
+    padding-top: 1px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listItem {
+    margin: 0 0 1.25rem;
+}
+
+.lightText {
+    color: #999;
+}
+
+.footerText {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 0.9;
+}
+
+.textLightSm {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.textMd {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
+
+.textSm {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
+
+.bodyLong {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 767.98px) {
+    .headingLg {
+        font-size: 1rem;
+    }
+
+    .headingBoldLg {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.005em;
+        line-height: 1.4;
+        font-size: 1.25rem;
+        line-height: 150%;
+        letter-spacing: 0.005em;
+        margin: 1rem 0;
+    }
+
+    .headingLightLg {
+        font-family: OrticaLight, serif;
+        line-height: 1.4;
+        font-size: 1.25rem;
+        line-height: 150%;
+        letter-spacing: 0.005em;
+        margin: 1rem 0;
+    }
+
+    .textMd {
+        font-size: 0.85rem;
+    }
+
+    .textLightSm {
+        font-size: 0.7rem;
+    }
 }
