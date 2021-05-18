@@ -179,19 +179,26 @@
     }
 
     .headingLightLg {
-        font-family: OrticaLight, serif;
-        line-height: 1.4;
-        font-size: 1.25rem;
-        line-height: 150%;
-        letter-spacing: 0.005em;
-        margin: 1rem 0;
+        font-size: 1rem;
+    }
+    .headingLightMd {
+        font-size: 1rem;
+    }
+    .headingLgNoMargin {
+        font-size: 1rem;
     }
 
     .textMd {
         font-size: 0.85rem;
     }
+    .textSm {
+        font-size: 0.85rem;
+    }
 
     .textLightSm {
         font-size: 0.7rem;
+    }
+    .footerText {
+        font-size: 0.6rem;
     }
 }

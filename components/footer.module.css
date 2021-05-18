@@ -1,29 +1,39 @@
 .footer {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .footerLeft {
-  width: 50%;
-  background-color: #1a6050;
+    width: 50%;
+    background-color: #1a6050;
 }
 
 .footerLeft p {
-  display: block;
-  padding-left: 1.5rem;
-  color: #fffef2;
+    display: block;
+    padding-left: 1.5rem;
+    color: #fffef2;
 }
 
 .footerRight {
-  width: 50%;
-  background-color: #fffef2;
+    width: 50%;
+    background-color: #fffef2;
 }
 
 .footerRight a {
-  display: block;
-  float: right;
-  padding-right: 1.5rem;
-  color: #1a6050;
+    display: block;
+    float: right;
+    padding-right: 1.5rem;
+    color: #1a6050;
+}
+
+@media (max-width: 767.98px) {
+    .footerLeft p {
+        padding-left: 0.5rem;
+    }
+
+    .footerRight a {
+        padding-right: 0.5rem;
+    }
 }
