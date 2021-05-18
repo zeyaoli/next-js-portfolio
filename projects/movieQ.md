@@ -3,32 +3,34 @@ title: "movieQ"
 year: "2020"
 date: "2020-3-20"
 duration: "3 Days"
-description: "A social and movie streaming platform that connects LGBTQ+ community members through movies. "
+description: "A social and movie streaming platform that connects LGBTQ+ community members through movies. Collaborated with Kuanwen Chen"
 thumbnail: "/movieQ-thumbnail.webp"
 role: "UX Designer, UI Designer, Ideation"
 skill: "#AdobeXD #UX #WebDesign #ProductDesign"
 award: "Adobe x Netflix Creative Jam Honorable Mentions"
 ---
 
-## About
+![movie Q profile](/movieQ/movieQ1.gif)
 
-When we grew up as queer, we could only spy on LGBT films in bed after our parents left. We often felt isolated in society, but those movies gave us the strength to live our lives. Thus, in the pride month, we decided to launch a platform where queers can connect through LGBT films and potentially find their date on it. We use movies as an icebreaker and let LGBT-identified connect their people talk to even during the quarantine time.
+## Challenge
+
+Design a third-party desktop website or desktop app (not Netflix-branded) where the community can celebrate shared stories together through communal and authentic experiences.
 
 ## Problem Statement
 
+When we grew up as queer, we could only spy on LGBT films in bed after our parents left. We often felt isolated in society, but those movies gave us the strength to live our lives. Thus, in the pride month, we decided to launch a platform where queers can connect through LGBT films and potentially find their date on it. We use movies as an icebreaker and let LGBT-identified connect their people talk to even during the quarantine time.
+
 In 2020, over 151.6 million people subscribe to Netflix. With the COVID-19 situation, Video Streaming service revenue is predicted to continue growing in the future. However, global pandemic limits the interaction between people. So we want to explore:
 
-**How might we help the community utilize video streaming platforms and share their experience with content such as series television shows and movies they love?**
+## How might we help the community utilize video streaming platforms and share their experience with content such as series television shows and movies they love?
 
-## Background
-
-### Research
+## Research
 
 Since both team members identify as queer, we decided to focus on the **LGBTQ community** and think about how to bond the community through video streaming services.
 
 A 2017 Gallup poll concluded that 4.5% of adult Americans identified as LGBT, with 5.1% of women identifying as LGBT, compared with 3.9% of men. A different survey in 2016, from the Williams Institute, estimated that 0.6% of U.S. adults identify as transgender. According to a 2019 research by Community Marketing & Insights, about 84% LGBTQ people in the U.S. read or watch LGBTQ media content regularly.
 
-### Target Audience
+## Target Audience
 
 LGBTQ+ members who subscribe to streaming platforms and regularly watch LGBTQ-related media. Our target audience likes to meet people and share opinions about movies with communities.
 
@@ -40,7 +42,7 @@ LGBTQ people often suffer from isolation and disconnection from the LGBTQ commun
 
 movieQ puts our members first, so when we delivered our user flow, we decided to let the flow go to user profiles from most of the pages. When signed in, there will be profiles displayed on the front page based on the recommendations. Users can also explore other profiles from the movie details and community page. The flow is designed to let users find other people through the website with movies as icebreakers and a communal bond.
 
-![Meet new friends](/movieQ/movieQ1.gif)
+![Meet new friends](/movieQ/movieQ4.gif)
 
 ### Meet New Friends
 
