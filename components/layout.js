@@ -5,54 +5,60 @@ import Meta from "./meta.js";
 import Footer from "./footer.js";
 
 function Layout({ children, about }) {
-  return (
-    <>
-      <Meta />
-      <header className={styles.header}>
-        {about ? (
-          <>
-            <div className={styles.headerLeft}>
-              <Link href='/'>
-                <a>
-                  <h1 className={utilStyles.headingLightMd}>Zeyao Li</h1>
-                </a>
-              </Link>
+    return (
+        <>
+            <Meta />
+            <header className={styles.header}>
+                {about ? (
+                    <>
+                        <div className={styles.headerLeft}>
+                            <Link href="/">
+                                <a>
+                                    <p className={utilStyles.headingLightMd}>
+                                        Zeyao Li
+                                    </p>
+                                </a>
+                            </Link>
+                        </div>
+                        <div className={styles.headerRight}>
+                            <a>
+                                <p
+                                    className={`${utilStyles.headingLightMd} ${utilStyles.lightText}`}
+                                >
+                                    About
+                                </p>
+                            </a>
+                        </div>
+                    </>
+                ) : (
+                    <>
+                        <div className={styles.headerLeft}>
+                            <Link href="/">
+                                <a>
+                                    <p className={utilStyles.headingLightMd}>
+                                        Zeyao Li
+                                    </p>
+                                </a>
+                            </Link>
+                        </div>
+                        <div className={styles.headerRight}>
+                            <Link href="/about">
+                                <a>
+                                    <p className={utilStyles.headingLightMd}>
+                                        About
+                                    </p>
+                                </a>
+                            </Link>
+                        </div>
+                    </>
+                )}
+            </header>
+            <div className={styles.container}>
+                <main className={styles.innerContainer}>{children}</main>
             </div>
-            <div className={styles.headerRight}>
-              <a>
-                <h1
-                  className={`${utilStyles.headingLightMd} ${utilStyles.lightText}`}
-                >
-                  About
-                </h1>
-              </a>
-            </div>
-          </>
-        ) : (
-          <>
-            <div className={styles.headerLeft}>
-              <Link href='/'>
-                <a>
-                  <h1 className={utilStyles.headingLightMd}>Zeyao Li</h1>
-                </a>
-              </Link>
-            </div>
-            <div className={styles.headerRight}>
-              <Link href='/about'>
-                <a>
-                  <h1 className={utilStyles.headingLightMd}>About</h1>
-                </a>
-              </Link>
-            </div>
-          </>
-        )}
-      </header>
-      <div className={styles.container}>
-        <main className={styles.innerContainer}>{children}</main>
-      </div>
-      <Footer />
-    </>
-  );
+            <Footer />
+        </>
+    );
 }
 
 export default Layout;
