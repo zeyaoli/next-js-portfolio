@@ -32,6 +32,7 @@
     display: block;
     padding-left: 1.5rem;
     color: #1a6050;
+    float: left;
 }
 
 .headerRight {
@@ -49,5 +50,13 @@
 @media (max-width: 767.98px) {
     .innerContainer {
         padding: 0.5rem;
+    }
+
+    .headerLeft a {
+        padding-left: 0.5rem;
+    }
+
+    .headerRight a {
+        padding-right: 0.5rem;
     }
 }
