@@ -52,12 +52,33 @@ export default function Home({ allPostsData }) {
                 <div className={indexStyles.introduction}>
                     <p className={utilStyles.headingLightLg}>
                         👋 I am a web developer, designer, and educator, working
-                        at <a href="https://oak.is"> Oak Studios</a> and
-                        building <a href="http://dropmark.com/">Dropmark</a>. I
-                        just graduated from{" "}
-                        <a href="https://tisch.nyu.edu/itp">NYU ITP</a> where I
-                        made websites and installations about queer and digital
-                        dating culture.{" "}
+                        at{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://oak.is"
+                        >
+                            {" "}
+                            Oak Studios
+                        </a>{" "}
+                        and building{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://dropmark.com/"
+                        >
+                            Dropmark
+                        </a>
+                        . I just graduated from{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://tisch.nyu.edu/itp"
+                        >
+                            NYU ITP
+                        </a>{" "}
+                        where I made websites and installations about queer and
+                        digital dating culture.{" "}
                         <a
                             href="#social"
                             style={{
@@ -87,10 +108,34 @@ export default function Home({ allPostsData }) {
 
             <section>
                 <div className={indexStyles.social} id="social">
-                    <a href="https://twitter.com/lizeyao">Twitter</a>
-                    <a href="https://www.linkedin.com/in/zeyaoli/">LinkedIn</a>
-                    <a href="https://github.com/zeyaoli">GitHub</a>
-                    <a href="https://www.are.na/zeyao-li">Are.na</a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://twitter.com/lizeyao"
+                    >
+                        Twitter
+                    </a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.linkedin.com/in/zeyaoli/"
+                    >
+                        LinkedIn
+                    </a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://github.com/zeyaoli"
+                    >
+                        GitHub
+                    </a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.are.na/zeyao-li"
+                    >
+                        Are.na
+                    </a>
                 </div>
             </section>
 
