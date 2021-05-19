@@ -61,19 +61,10 @@
     margin: 1rem 0;
 }
 
-.headingLightLgSans {
-    /* font-family: OrticaLight, serif; */
-    font-family: SpaceGroteskLight, sans-serif;
-    font-size: 1.9rem;
-    line-height: 150%;
-    letter-spacing: 0.005em;
-    margin: 1rem 0;
-}
-
 .headingLightMdSans {
     font-family: "Inter", sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 150%;
     letter-spacing: 0.005em;
     margin: 1rem 0;
@@ -92,9 +83,9 @@
 
 .headingLightMd {
     font-family: "Inter", sans-serif;
-    font-weight: 400;
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 150%;
+    letter-spacing: 0.005em;
 }
 
 .descriptionText {

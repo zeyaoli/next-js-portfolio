@@ -107,8 +107,8 @@ export default function AboutPage() {
                     <h2 className={utilStyles.headingLightLg}>Skills</h2>
                     <div className={aboutStyles.skills_detail}>
                         <div className={aboutStyles.skills_column}>
-                            <span className={utilStyles.headingLightLg}>
-                                Programming Languages
+                            <span className={utilStyles.headingLightMd}>
+                                Programming Languages{" "}
                             </span>
                             <span className={utilStyles.headingLightMdSans}>
                                 — HTML/CSS/SASS, JavaScript, TypeScript, Python,
@@ -116,26 +116,26 @@ export default function AboutPage() {
                             </span>
                         </div>
                         <div className={aboutStyles.skills_column}>
-                            <span className={utilStyles.headingLightLg}>
+                            <span className={utilStyles.headingLightMd}>
                                 Libraries/ Framework{" "}
                             </span>
                             <span className={utilStyles.headingLightMdSans}>
                                 — React.js, Next.js, Storybook, Node.js,
-                                Express.js, D3.js, p5.js, three.js, socket.io,
-                                MongoDB
+                                Express.js, D3.js, p5.js, three.js, socket.io
+                                (Web Socket), MongoDB
                             </span>
                         </div>
                         <div className={aboutStyles.skills_column}>
-                            <span className={utilStyles.headingLightLg}>
+                            <span className={utilStyles.headingLightMd}>
                                 Software / Tools{" "}
                             </span>
                             <span className={utilStyles.headingLightMdSans}>
-                                — Arduino, Adobe Suite, Figma, Git, NPM, Sketch,
-                                Webpack, Unity
+                                — Arduino, Adobe Suite, Docker, Figma, Git, NPM,
+                                Sketch, Webpack, Unity
                             </span>
                         </div>
                         <div className={aboutStyles.skills_column}>
-                            <span className={utilStyles.headingLightLg}>
+                            <span className={utilStyles.headingLightMd}>
                                 Project Production{" "}
                             </span>
                             <span className={utilStyles.headingLightMdSans}>
