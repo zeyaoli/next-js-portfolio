@@ -57,6 +57,15 @@ const Social = () => {
                         background-color: #1a6050;
                         color: #fffef2;
                     }
+
+                    @media (max-width: 540px) {
+                        .social {
+                            flex-direction: column;
+                        }
+                        .social a {
+                            margin-top: 0.5rem;
+                        }
+                    }
                 `}
             </style>
         </>
