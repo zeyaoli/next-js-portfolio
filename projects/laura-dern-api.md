@@ -3,7 +3,7 @@ title: "Laura Dern API"
 date: "2020-8-15"
 duration: "2 weeks"
 description: "An API contributed to the ultimate gay icon - Laura Dern"
-thumbnail: "/laura-dern-api-thumbnail.png"
+thumbnail: "/laura-dern-api-thumbnail.webp"
 role: "Individual Project"
 category: "engineer"
 skill: "#API #Node.js #FullStack #MongoDB"
@@ -15,8 +15,8 @@ Laura Dern API is an open source API dedicated to our LGBTQ icon Laura Dern. You
 
 ## Link
 
-- [Laura Dern API Website](https://laura-dern-api.herokuapp.com/)
-- [Code Snippet Source](https://github.com/zeyaoli/Laura-Dern-API)
+-   [Laura Dern API Website](https://laura-dern-api.herokuapp.com/)
+-   [Code Snippet Source](https://github.com/zeyaoli/Laura-Dern-API)
 
 ## How
 
