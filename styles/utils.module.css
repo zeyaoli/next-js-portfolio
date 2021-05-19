@@ -71,7 +71,6 @@
 }
 
 .headingLightMdSans {
-    /* font-family: OrticaLight, serif; */
     font-family: "Inter", sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
@@ -185,6 +184,10 @@
         font-size: 1rem;
     }
     .headingLgNoMargin {
+        font-size: 1rem;
+    }
+
+    .headingLightMdSans {
         font-size: 1rem;
     }
 
