@@ -15,6 +15,8 @@ I worked on the conversation design, UX design, and the whole web development in
 
 Site coming soon!
 
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Mv7dq9uVdRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Conceptualization
 
 When we were thinking about what it means to interact with a "genderless" voice bot and what a genderless voice bot even sounds, the idea came about. We wanted to see if it was possible to create a bot people can go on a date with that was genuinely genderless. Perhaps that would open people's minds about what gender they are open to dating?
@@ -73,5 +75,5 @@ The socket connect on the server side shows how the speech gets processed with G
 
 ## Next Step:
 
-- [ ] Deploy the site
-- [ ] Work on the background of the front-end and make it more retro
+-   [ ] Deploy the site
+-   [ ] Work on the background of the front-end and make it more retro
