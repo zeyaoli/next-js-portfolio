@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 import Layout from "../components/layout";
+import Social from "../components/social";
 import aboutStyles from "../styles/about.module.css";
 import utilStyles from "../styles/utils.module.css";
 import indexStyles from "../styles/index.module.css";
@@ -276,17 +277,7 @@ export default function AboutPage() {
                         </ul>
                     </section>
                 </div>
-
-                <section>
-                    <div className={indexStyles.social} id="social">
-                        <a href="https://twitter.com/lizeyao">Twitter</a>
-                        <a href="https://www.linkedin.com/in/zeyaoli/">
-                            LinkedIn
-                        </a>
-                        <a href="https://github.com/zeyaoli">GitHub</a>
-                        <a href="https://www.are.na/zeyao-li">Are.na</a>
-                    </div>
-                </section>
+                <Social />
             </div>
 
             <style jsx global>

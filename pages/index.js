@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/layout";
+import Social from "../components/social";
 
 import utilStyles from "../styles/utils.module.css";
 import indexStyles from "../styles/index.module.css";
@@ -80,7 +81,7 @@ export default function Home({ allPostsData }) {
                         where I made websites and installations about queer and
                         digital dating culture.{" "}
                         <a
-                            href="#social"
+                            href="#socialSection"
                             style={{
                                 borderBottom: `solid 1px`,
                             }}
@@ -99,45 +100,9 @@ export default function Home({ allPostsData }) {
                 <ul className={`${utilStyles.list} ${indexStyles.projects}`}>
                     {listItems}
                 </ul>
-                {/* <div className={indexStyles.archive}>
-          <Link href="/">
-            <a> Archive →︎</a>
-          </Link>
-        </div> */}
             </section>
 
-            <section>
-                <div className={indexStyles.social} id="social">
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://twitter.com/lizeyao"
-                    >
-                        Twitter
-                    </a>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.linkedin.com/in/zeyaoli/"
-                    >
-                        LinkedIn
-                    </a>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://github.com/zeyaoli"
-                    >
-                        GitHub
-                    </a>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.are.na/zeyao-li"
-                    >
-                        Are.na
-                    </a>
-                </div>
-            </section>
+            <Social />
 
             <style jsx global>
                 {`
