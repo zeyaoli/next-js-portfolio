@@ -88,8 +88,8 @@ export default function Home({ allPostsData }) {
                         >
                             Chat with me
                         </a>{" "}
-                        for freelance web dev work or if you want to know more
-                        about me and my work.
+                        for freelance web design and development work or if you
+                        want to know more about me and my work.
                     </p>
                 </div>
             </section>

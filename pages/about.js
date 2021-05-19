@@ -16,11 +16,11 @@ export default function AboutPage() {
             <div className={aboutStyles.about_container}>
                 <div className={aboutStyles.profile_info}>
                     <p className={utilStyles.bodyLong}>
-                        Hi 👋, thank you for being interested in who I am.{" "}
-                        <b>
+                        Hi 👋 ,{" "}
+                        <span className="intro_oblique">
                             I am Zeyao, a creative web developer, designer, and
                             educator.
-                        </b>{" "}
+                        </span>{" "}
                         Currently, I am a Frontend Engineer at{" "}
                         <a
                             target="_blank"
@@ -280,10 +280,13 @@ export default function AboutPage() {
                 <Social />
             </div>
 
-            <style jsx global>
+            <style jsx>
                 {`
-                    body {
+                    :global(body) {
                         background-color: #f3f1e9;
+                    }
+                    .intro_oblique {
+                        font-style: oblique;
                     }
                 `}
             </style>
