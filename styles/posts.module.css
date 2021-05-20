@@ -11,10 +11,6 @@
     width: 80%;
 }
 
-.posts a {
-    /* text-decoration: underline; */
-}
-
 .intro {
     display: flex;
     flex-direction: row;
