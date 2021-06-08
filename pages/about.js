@@ -29,9 +29,17 @@ export default function AboutPage() {
                         >
                             Oak Studios LLC
                         </a>
-                        , as well as pursuing my master's degree in Interactive
-                        Telecommunication Program at NYU Tisch. Previously, I
-                        was web development instructor at{" "}
+                        , and an adjunct professor at{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://fm.hunter.cuny.edu/"
+                        >
+                            Hunter College Film and Media department
+                        </a>{" "}
+                        . Earlier this year, I earned my master's degree in
+                        Interactive Telecommunication Program at NYU Tisch.
+                        Previously, I was web development instructor at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
