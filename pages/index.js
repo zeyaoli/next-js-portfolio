@@ -29,17 +29,17 @@ export default function Home({ allPostsData }) {
                     ></div>
                     {/* <img alt={thumbnail} src={thumbnail} loading="lazy" /> */}
                 </Link>
-                <Link href="/projects/[id]" as={`/projects/${id}`}>
-                    <div className={indexStyles.projectDescription}>
-                        <a
+                <div className={indexStyles.projectDescription}>
+                    <Link href="/projects/[id]" as={`/projects/${id}`}>
+                        <div
                             className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}
                         >
                             {title}
-                        </a>
-                        <div className={utilStyles.textSm}>{description}</div>
-                        <div className={utilStyles.textLightSm}>{skill}</div>
-                    </div>
-                </Link>
+                        </div>
+                    </Link>
+                    <div className={utilStyles.textSm}>{description}</div>
+                    <div className={utilStyles.textLightSm}>{skill}</div>
+                </div>
             </li>
         )
     );

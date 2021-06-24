@@ -85,6 +85,10 @@
     cursor: pointer;
 }
 
+.title:hover {
+    border-bottom: solid 1px #3c3c3c;
+}
+
 .archive {
     display: block;
     /* float: right; */
