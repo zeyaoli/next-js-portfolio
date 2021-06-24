@@ -3,7 +3,7 @@ title: "movieQ"
 year: "2020"
 date: "2020-3-20"
 duration: "3 Days"
-description: "A social and movie streaming platform that connects LGBTQ+ community members through movies. Collaborated with Kuanwen Chen"
+description: "A social and movie streaming platform that connects LGBTQ+ community members through movies."
 thumbnail: "/movieQ-thumbnail.webp"
 role: "UX Designer, UI Designer, Ideation"
 skill: "#AdobeXD #UX #WebDesign #ProductDesign"
@@ -11,6 +11,7 @@ award: "Adobe x Netflix Creative Jam Honorable Mentions"
 ---
 
 ![movie Q profile](/movieQ/movieQ1.gif)
+This project is collaborated with Kuan-wen Chen.
 
 ## Challenge
 
