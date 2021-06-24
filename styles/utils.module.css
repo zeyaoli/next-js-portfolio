@@ -152,6 +152,15 @@
     font-weight: 400;
 }
 
+.layoutText {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    margin: 1rem 0;
+}
+
 @media (max-width: 767.98px) {
     .headingLg {
         font-size: 1rem;
