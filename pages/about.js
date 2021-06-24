@@ -277,7 +277,6 @@ export default function AboutPage() {
                         </ul>
                     </section>
                 </div>
-                <Social />
             </div>
 
             <style jsx>

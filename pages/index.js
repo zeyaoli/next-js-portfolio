@@ -102,8 +102,6 @@ export default function Home({ allPostsData }) {
                 </ul>
             </section>
 
-            <Social />
-
             <style jsx global>
                 {`
                     body {
