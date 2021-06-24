@@ -14,7 +14,7 @@ function Layout({ children, about }) {
                         <div className={styles.headerLeft}>
                             <Link href="/">
                                 <a>
-                                    <p className={utilStyles.headingLightMd}>
+                                    <p className={utilStyles.layoutText}>
                                         Zeyao Li
                                     </p>
                                 </a>
@@ -23,7 +23,7 @@ function Layout({ children, about }) {
                         <div className={styles.headerRight}>
                             <a>
                                 <p
-                                    className={`${utilStyles.headingLightMd} ${utilStyles.lightText}`}
+                                    className={`${utilStyles.layoutText} ${utilStyles.lightText}`}
                                 >
                                     About
                                 </p>
@@ -35,7 +35,7 @@ function Layout({ children, about }) {
                         <div className={styles.headerLeft}>
                             <Link href="/">
                                 <a>
-                                    <p className={utilStyles.headingLightMd}>
+                                    <p className={utilStyles.layoutText}>
                                         Zeyao Li
                                     </p>
                                 </a>
@@ -44,7 +44,7 @@ function Layout({ children, about }) {
                         <div className={styles.headerRight}>
                             <Link href="/about">
                                 <a>
-                                    <p className={utilStyles.headingLightMd}>
+                                    <p className={utilStyles.layoutText}>
                                         About
                                     </p>
                                 </a>

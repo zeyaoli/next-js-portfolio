@@ -25,26 +25,26 @@
 
 .headerLeft {
     width: 50%;
-    background-color: #fffef2;
+    /* background-color: #fffef2; */
 }
 
 .headerLeft a {
     display: block;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     color: #1a6050;
     float: left;
 }
 
 .headerRight {
     width: 50%;
-    background-color: #1a6050;
+    /* background-color: #1a6050; */
 }
 
 .headerRight a {
     display: block;
     float: right;
-    padding-right: 1.5rem;
-    color: #fffef2;
+    padding-right: 1rem;
+    color: #1a6050;
 }
 
 @media (max-width: 767.98px) {
