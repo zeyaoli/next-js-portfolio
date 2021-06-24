@@ -39,7 +39,7 @@ export default function AboutPage() {
                         </a>{" "}
                         . Earlier this year, I earned my master's degree in
                         Interactive Telecommunication Program at NYU Tisch.
-                        Previously, I was web development instructor at{" "}
+                        Previously, I was a web development instructor at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -47,7 +47,7 @@ export default function AboutPage() {
                         >
                             ITP Camp
                         </a>
-                        , and worked as a Producer at{" "}
+                        , and a Producer at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -56,9 +56,8 @@ export default function AboutPage() {
                             R/GA
                         </a>
                         . <br /> <br />
-                        As a queer developer, my work contains websites related
-                        to relationships, dating culture, social media, and
-                        sexuality. My work had been exhibited at Liberty Science
+                        My work is mostly related to queer and digital dating
+                        culture. My work had been exhibited at Liberty Science
                         Center, Maker Faire NY, featured on GameScenes, and
                         awarded by Adobe and Netflix.
                         <br /> <br />
@@ -71,15 +70,7 @@ export default function AboutPage() {
                         >
                             i-D magazine
                         </a>
-                        , lifestyle and beauty for{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.nytimes.com/section/t-magazine"
-                        >
-                            The New York Times Style Magazine
-                        </a>{" "}
-                        China Edition, and LGBTQ activism for{" "}
+                        , and LGBTQ activism for{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -90,9 +81,10 @@ export default function AboutPage() {
                         </a>{" "}
                         in Prague.
                         <br />
-                        <br />I am actively looking for a front-end developer
-                        position and/or freelance web development projects in
-                        the NYC area or remote. You can find my resume/CV{" "}
+                        <br />
+                        Chat with me if you have freelance web development
+                        projects or want to collaborate with me in the NYC area
+                        or remote. You can find my resume/CV{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
