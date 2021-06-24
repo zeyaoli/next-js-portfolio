@@ -7,25 +7,30 @@
 
 .footerLeft {
     width: 50%;
-    background-color: #1a6050;
+    /* background-color: #1a6050; */
 }
 
 .footerLeft p {
     display: block;
-    padding-left: 1.5rem;
-    color: #fffef2;
+    padding-left: 1rem;
+    color: #1a6050;
 }
 
 .footerRight {
     width: 50%;
-    background-color: #fffef2;
+    /* background-color: #fffef2; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .footerRight a {
-    display: block;
-    float: right;
-    padding-right: 1.5rem;
+    margin: 0 0.5rem;
     color: #1a6050;
+}
+
+.footerRight a:hover {
+    border-bottom: 1px solid #1a6050;
 }
 
 @media (max-width: 767.98px) {
