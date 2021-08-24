@@ -21,15 +21,8 @@ export default function AboutPage() {
                             I am Zeyao, a creative web developer, designer, and
                             educator.
                         </span>{" "}
-                        Currently, I am a Frontend Engineer at{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://oak.is"
-                        >
-                            Oak Studios LLC
-                        </a>
-                        , and an adjunct professor at{" "}
+                        Currently, I am a Web Engineer at PINT, a web agency,
+                        and an adjunct professor at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -39,13 +32,14 @@ export default function AboutPage() {
                         </a>{" "}
                         . Earlier this year, I earned my master's degree in
                         Interactive Telecommunication Program at NYU Tisch.
-                        Previously, I was a web development instructor at{" "}
+                        Previously, I was a front-end engineer developed
+                        Dropmark at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://itp.nyu.edu/camp2020/"
+                            href="https://oak.is"
                         >
-                            ITP Camp
+                            Oak Studios LLC
                         </a>
                         , and a Producer at{" "}
                         <a

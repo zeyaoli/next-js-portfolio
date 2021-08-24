@@ -52,34 +52,17 @@ export default function Home({ allPostsData }) {
             <section className={indexStyles.info}>
                 <div className={indexStyles.introduction}>
                     <p className={utilStyles.headingLightLg}>
-                        👋 I am a web developer, designer, and educator, working
-                        at{" "}
+                        👋 I am a web developer, designer, and educator,
+                        teaching{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://oak.is"
+                            href="https://zeyao.online/"
                         >
-                            {" "}
-                            Oak Studios
+                            "Web Production 1"
                         </a>{" "}
-                        and building{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://dropmark.com/"
-                        >
-                            Dropmark
-                        </a>
-                        . I just graduated from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://tisch.nyu.edu/itp"
-                        >
-                            NYU ITP
-                        </a>{" "}
-                        where I made websites and installations about queer and
-                        digital dating culture.{" "}
+                        at Hunter College this fall. I also work at PINT, a web
+                        agency as a web engineer.{" "}
                         <a
                             href="#socialSection"
                             style={{
