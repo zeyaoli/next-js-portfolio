@@ -149,6 +149,17 @@ export default function AboutPage() {
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    href="https://itp.nyu.edu/adjacent/issue-8/2021/06/24/cybernetics-of-sex-webzine/"
+                                >
+                                    Adjacent Issue 8
+                                </a>
+                                , Cybernetics of Sex Webzine, New York, NY, Oct
+                                2021
+                            </li>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="https://makeprojects.com/make/project/thirsty-plant"
                                 >
                                     Maker Faire
