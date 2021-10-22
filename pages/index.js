@@ -64,7 +64,7 @@ export default function Home({ allPostsData }) {
                         at Hunter College this fall. I also work at PINT, a web
                         agency as a web engineer.{" "}
                         <a
-                            href="#socialSection"
+                            href="#footer"
                             style={{
                                 borderBottom: `solid 1px`,
                             }}

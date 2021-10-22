@@ -28,6 +28,7 @@ body {
     height: 100%;
     background-attachment: fixed;
     color: #3c3c3c;
+    scroll-behavior: smooth;
 }
 
 * {
