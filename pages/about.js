@@ -105,7 +105,7 @@ export default function AboutPage() {
                             </span>
                             <span className={utilStyles.headingLightMdSans}>
                                 — HTML/CSS/SASS, JavaScript, TypeScript, Python,
-                                Java(Processing), Jekyll, Liquid
+                                Java(Processing), Jekyll, PHP
                             </span>
                         </div>
                         <div className={aboutStyles.skills_column}>
@@ -114,8 +114,8 @@ export default function AboutPage() {
                             </span>
                             <span className={utilStyles.headingLightMdSans}>
                                 — React.js, Next.js, Storybook, Node.js,
-                                Express.js, D3.js, p5.js, three.js, socket.io
-                                (Web Socket), MongoDB
+                                Express.js, WordPress, D3.js, p5.js, three.js,
+                                socket.io (Web Socket), MongoDB
                             </span>
                         </div>
                         <div className={aboutStyles.skills_column}>
