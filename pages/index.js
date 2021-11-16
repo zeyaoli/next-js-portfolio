@@ -52,8 +52,8 @@ export default function Home({ allPostsData }) {
             <section className={indexStyles.info}>
                 <div className={indexStyles.introduction}>
                     <p className={utilStyles.headingLightLg}>
-                        👋 I am a web developer, designer, and educator,
-                        teaching{" "}
+                        👋 I am an experienced web developer, designer, and
+                        educator, teaching{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -61,8 +61,8 @@ export default function Home({ allPostsData }) {
                         >
                             "Web Production 1"
                         </a>{" "}
-                        at Hunter College this fall. I also work at PINT, a web
-                        agency as a web engineer.{" "}
+                        at Hunter College Fall 2020 and Spring 2021. I also work
+                        at PINT.Inc, a tech agency as a web engineer.{" "}
                         <a
                             href="#footer"
                             style={{

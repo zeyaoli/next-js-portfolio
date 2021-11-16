@@ -16,13 +16,27 @@ export default function AboutPage() {
             <div className={aboutStyles.about_container}>
                 <div className={aboutStyles.profile_info}>
                     <p className={utilStyles.bodyLong}>
-                        Hi 👋 ,{" "}
-                        <span className="intro_oblique">
-                            I am Zeyao, a creative web developer, designer, and
-                            educator.
-                        </span>{" "}
-                        Currently, I am a Web Engineer at PINT, a web agency,
-                        and an adjunct professor at{" "}
+                        Hi 👋 , I am Zeyao. I am an experienced web developer
+                        and designer specializing in building content-rich
+                        websites and web-based apps, with a broad range of tech
+                        stacks in hand.
+                        <br />
+                        <br />
+                        Currently, I am a Web Engineer at PINT, where I build
+                        and maintain websites for clients in variable fields.
+                        Recently, I led the development process of{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://glaukos.com/"
+                        >
+                            Glaukos
+                        </a>
+                        , an ophthalmic medical technology company's brand new
+                        website, which contains eight languages, ten regions,
+                        and more than two hundred pages.
+                        <br />
+                        <br />I am also an an adjunct professor at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -30,9 +44,19 @@ export default function AboutPage() {
                         >
                             Hunter College Film and Media department
                         </a>{" "}
-                        . Earlier this year, I earned my master's degree in
-                        Interactive Telecommunication Program at NYU Tisch.
-                        Previously, I was a front-end engineer developed
+                        ,teaching Web Production in the Department of Film and
+                        Media. I believe in life learning, and teaching helps me
+                        learn better myself and break down the web development
+                        foundation for my students. I am proud of leading my
+                        students into the door of web development and seeing
+                        them grow over the semester. <br /> <br />
+                        I hold a Master's degree in Interactive
+                        Telecommunications Program (ITP) from NYU Tisch School
+                        of the Arts and a Bachelor of Science's degree in
+                        Interactive Media Arts from NYU Shanghai.
+                        <br />
+                        <br />
+                        Previously, I was a front-end engineer developing
                         Dropmark at{" "}
                         <a
                             target="_blank"
@@ -41,7 +65,7 @@ export default function AboutPage() {
                         >
                             Oak Studios LLC
                         </a>
-                        , and a Producer at{" "}
+                        , and a Project Manager at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -49,31 +73,7 @@ export default function AboutPage() {
                         >
                             R/GA
                         </a>
-                        . <br /> <br />
-                        My work is mostly related to queer and digital dating
-                        culture. My work had been exhibited at Liberty Science
-                        Center, Maker Faire NY, featured on GameScenes, and
-                        awarded by Adobe and Netflix.
-                        <br /> <br />
-                        Before stepping into the field of technology, I worked
-                        in the media industry, covering fashion news for{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://i-d.vice.com/en_uk"
-                        >
-                            i-D magazine
-                        </a>
-                        , and LGBTQ activism for{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://soundcloud.com/nyupraguecast"
-                        >
-                            {" "}
-                            PragueCast
-                        </a>{" "}
-                        in Prague.
+                        .
                         <br />
                         <br />
                         Chat with me if you have freelance web development
@@ -86,8 +86,7 @@ export default function AboutPage() {
                         >
                             here
                         </a>
-                        . Let's grab a coffee (over zoom or wherever on the
-                        Internet space)!
+                        .
                     </p>
                     <div className={aboutStyles.profile_pic}>
                         <img
@@ -210,8 +209,18 @@ export default function AboutPage() {
                         </ul>
                     </section>
                     <section className={aboutStyles.detailSection}>
-                        <h3 className={utilStyles.headingLightLg}>Workshops</h3>
+                        <h3 className={utilStyles.headingLightLg}>Teaching</h3>
                         <ul>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://zeyao.online/"
+                                >
+                                    Web Production 1
+                                </a>
+                                , Hunter College CUNY, 2021-2022
+                            </li>
                             <li>
                                 <a
                                     target="_blank"
