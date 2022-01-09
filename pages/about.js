@@ -33,8 +33,7 @@ export default function AboutPage() {
                             Glaukos
                         </a>
                         , an ophthalmic medical technology company's brand new
-                        website, which contains eight languages, ten regions,
-                        and more than two hundred pages.
+                        website.
                         <br />
                         <br />I am also an an adjunct professor at{" "}
                         <a
@@ -82,7 +81,7 @@ export default function AboutPage() {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://docs.google.com/document/d/126bJILgGepDddcDs6jiLrojiDb_Ec6aiBnOGcItrAiU/edit?usp=sharing"
+                            href="https://docs.google.com/document/d/1puJl2BLUl-K39SPM_lc2yBSgOdKo7jGJHVaJIFTdsrY/edit?usp=sharing"
                         >
                             here
                         </a>
@@ -278,15 +277,15 @@ export default function AboutPage() {
                         <ul>
                             <li>
                                 New York University, MPS, Interactive
-                                Telecommunications Program, 2019 - 2021
+                                Telecommunications Program
                             </li>
                             <li>
                                 New York University Prague, Exchange, Media
-                                Culture and Communication, 2017
+                                Culture and Communication
                             </li>
                             <li>
                                 New York University Shanghai, Bachelor of
-                                Science, Interactive Media Arts, 2015-2019
+                                Science, Interactive Media Arts
                             </li>
                         </ul>
                     </section>
