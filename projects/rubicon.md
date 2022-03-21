@@ -24,6 +24,10 @@ skill:
 Visit the site here ->
 <a target="_blank" rel="noopener noreferrer" href="http://rubiconmd.com/"> rubiconmd.com </a>
 
+<div class="image-wrapper">
+<img src="/rubicon/rubicon-full-page.webp"/>
+</div>
+
 #### Team:
 
 Esther Nguyen, Project Manager<br>
