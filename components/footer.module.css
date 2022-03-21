@@ -27,10 +27,6 @@
     margin: 0 0.5rem;
 }
 
-.footerRight a:hover {
-    border-bottom: 1px solid #3c3c3c;
-}
-
 @media screen and (min-width: 1440px) {
     .footer {
         max-width: 1390px;
