@@ -147,6 +147,17 @@ export default function AboutPage() {
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    href="https://www.thesparkpodcast.org/episodes/developing-webs-and-minds-a-conversation-with-zeyao-li"
+                                >
+                                    Developing Webs and Minds - A Conversation
+                                    with Zeyao Li
+                                </a>
+                                , the Spark 火花, Mar 2022
+                            </li>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="https://itp.nyu.edu/adjacent/issue-8/2021/06/24/cybernetics-of-sex-webzine/"
                                 >
                                     Adjacent Issue 8
