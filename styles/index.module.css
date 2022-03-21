@@ -58,15 +58,15 @@
 .projectTags {
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     font-size: 16px;
 }
 .projectTags > span {
     padding: 6px 12px;
     border-radius: 8px;
 }
-.projectTags > span:not(:first-child) {
-    margin-left: 10px;
-}
+
 .projectDetail .projectSubDetail {
     color: rgba(34, 34, 34, 0.6);
     font-weight: 400;
