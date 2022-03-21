@@ -6,7 +6,11 @@ duration: "3 Weeks"
 description: " A Twitter API controlled light installation on criticizing people's addiction of social media."
 thumbnail: "/thirsty-plant.gif"
 role: "Individual Project"
-skill: "#API #Node.js #ProductDesign #LED"
+skill:
+    [
+        { "name": "Interactive Installation", "color": "orange" },
+        { "name": "Twitter API", "color": "blue" },
+    ]
 award: "Liberty Science Center Engineer Week. ITP Winter Show 2019"
 ---
 
@@ -16,8 +20,8 @@ award: "Liberty Science Center Engineer Week. ITP Winter Show 2019"
 
 ## Link:
 
-- Read about the making process (ideation, research, challenge, reference, budget...): [here](https://www.notion.so/zeyaoli/Full-Documentation-533c7355d0b146a284f5887fe8b94573).
-- Read about the code on Github: [here](https://github.com/zeyaoli/thirsty-plant).
+-   Read about the making process (ideation, research, challenge, reference, budget...): [here](https://www.notion.so/zeyaoli/Full-Documentation-533c7355d0b146a284f5887fe8b94573).
+-   Read about the code on Github: [here](https://github.com/zeyaoli/thirsty-plant).
 
 ## How:
 

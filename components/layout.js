@@ -14,19 +14,15 @@ function Layout({ children, about }) {
                         <div className={styles.headerLeft}>
                             <Link href="/">
                                 <a>
-                                    <p className={utilStyles.layoutText}>
-                                        Zeyao Li
-                                    </p>
+                                    <span>Zeyao Li</span>
                                 </a>
                             </Link>
                         </div>
                         <div className={styles.headerRight}>
                             <a>
-                                <p
-                                    className={`${utilStyles.layoutText} ${utilStyles.lightText}`}
-                                >
+                                <span className={utilStyles.lightText}>
                                     About
-                                </p>
+                                </span>
                             </a>
                         </div>
                     </>
@@ -35,18 +31,14 @@ function Layout({ children, about }) {
                         <div className={styles.headerLeft}>
                             <Link href="/">
                                 <a>
-                                    <p className={utilStyles.layoutText}>
-                                        Zeyao Li
-                                    </p>
+                                    <span>Zeyao Li</span>
                                 </a>
                             </Link>
                         </div>
                         <div className={styles.headerRight}>
                             <Link href="/about">
                                 <a>
-                                    <p className={utilStyles.layoutText}>
-                                        About
-                                    </p>
+                                    <span>About</span>
                                 </a>
                             </Link>
                         </div>

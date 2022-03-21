@@ -6,7 +6,7 @@ duration: "3 Days"
 description: "A social and movie streaming platform that connects LGBTQ+ community members through movies."
 thumbnail: "/movieQ-thumbnail.webp"
 role: "UX Designer, UI Designer, Ideation"
-skill: "#AdobeXD #UX #WebDesign #ProductDesign"
+skill: [{ "name": "Web Design", "color": "orange" }]
 award: "Adobe x Netflix Creative Jam Honorable Mentions"
 ---
 

@@ -42,8 +42,8 @@ export default function AboutPage() {
                             href="https://fm.hunter.cuny.edu/"
                         >
                             Hunter College Film and Media department
-                        </a>{" "}
-                        ,teaching Web Production in the Department of Film and
+                        </a>
+                        , teaching Web Production in the Department of Film and
                         Media. I believe in life learning, and teaching helps me
                         learn better myself and break down the web development
                         foundation for my students. I am proud of leading my
@@ -294,9 +294,6 @@ export default function AboutPage() {
 
             <style jsx>
                 {`
-                    :global(body) {
-                        background-color: #f3f1e9;
-                    }
                     .intro_oblique {
                         font-style: oblique;
                     }

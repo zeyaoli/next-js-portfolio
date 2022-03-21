@@ -1,12 +1,16 @@
 ---
 title: "Laura Dern API"
 date: "2020-8-15"
+year: "2020"
 duration: "2 weeks"
-description: "An API contributed to the ultimate gay icon - Laura Dern"
+description: "I designed an API and wrote its documentation that contributes to the ultimate gay icon - Laura Dern"
 thumbnail: "/laura-dern-api-thumbnail.webp"
-role: "Individual Project"
-category: "engineer"
-skill: "#API #Node.js #FullStack #MongoDB"
+role: "Full Stack Developer"
+skill:
+    [
+        { "name": "Full Stack Development", "color": "yellow" },
+        { "name": "API", "color": "pink" },
+    ]
 ---
 
 ## About

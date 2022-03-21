@@ -1,14 +1,14 @@
 import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/layout";
-import Social from "../components/social";
+import Intro from "../components/intro";
 
 import utilStyles from "../styles/utils.module.css";
 import indexStyles from "../styles/index.module.css";
 
 import { getSortedPostsData } from "../lib/posts";
 
-const bgColor = "#f3f1e9";
+const bgColor = "#fcfcfc";
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData();
@@ -20,25 +20,43 @@ export async function getStaticProps() {
 }
 export default function Home({ allPostsData }) {
     const listItems = allPostsData.map(
-        ({ id, title, description, thumbnail, skill }) => (
+        ({ id, title, description, thumbnail, skill, year, role }) => (
             <li className={utilStyles.listItem} key={id}>
                 <Link href="/projects/[id]" as={`/projects/${id}`}>
                     <div
                         style={{ backgroundImage: `url(${thumbnail})` }}
                         className={indexStyles.image}
                     ></div>
-                    {/* <img alt={thumbnail} src={thumbnail} loading="lazy" /> */}
                 </Link>
-                <div className={indexStyles.projectDescription}>
-                    <Link href="/projects/[id]" as={`/projects/${id}`}>
-                        <div
-                            className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}
-                        >
-                            {title}
-                        </div>
-                    </Link>
-                    <div className={utilStyles.textSm}>{description}</div>
-                    <div className={utilStyles.textLightSm}>{skill}</div>
+                {/* {console.log({ skillArr })} */}
+                <div className={indexStyles.projectTags}>
+                    {typeof skill === "object" &&
+                        skill.map(({ name, color }) => {
+                            return (
+                                <span className={`projectTag__${color}`}>
+                                    {name}
+                                </span>
+                            );
+                        })}
+                </div>
+                <div className={indexStyles.projectDetail}>
+                    <div className={indexStyles.projectColLeft}>
+                        <Link href="/projects/[id]" as={`/projects/${id}`}>
+                            <a
+                                className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}
+                            >
+                                {title}
+                            </a>
+                        </Link>
+                        <p className={indexStyles.projectSubDetail}>{role}</p>
+                        <p className={indexStyles.projectSubDetail}>{year}</p>
+                    </div>
+
+                    <div
+                        className={`${utilStyles.textSm} ${indexStyles.projectDescription}`}
+                    >
+                        {description}
+                    </div>
                 </div>
             </li>
         )
@@ -49,36 +67,10 @@ export default function Home({ allPostsData }) {
             <Head>
                 <title>Zeyao Li</title>
             </Head>
-            <section className={indexStyles.info}>
-                <div className={indexStyles.introduction}>
-                    <p className={utilStyles.headingLightLg}>
-                        👋 I am an experienced web developer, designer, and
-                        educator, teaching{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://zeyao.online/"
-                        >
-                            "Web Production 1"
-                        </a>{" "}
-                        at Hunter College Fall 2020 and Spring 2021. I also work
-                        at PINT.Inc, a tech agency as a web engineer.{" "}
-                        <a
-                            href="#footer"
-                            style={{
-                                borderBottom: `solid 1px`,
-                            }}
-                        >
-                            Chat with me
-                        </a>{" "}
-                        for freelance web design and development work or if you
-                        want to know more about me and my work.
-                    </p>
-                </div>
-            </section>
+            <Intro />
             <section className={indexStyles.projectSection}>
                 <div className={indexStyles.sectionTitle}>
-                    <h3>Selected Work</h3>
+                    <h3>Select Projects</h3>
                 </div>
                 <ul className={`${utilStyles.list} ${indexStyles.projects}`}>
                     {listItems}
@@ -89,6 +81,30 @@ export default function Home({ allPostsData }) {
                 {`
                     body {
                         background-color: ${bgColor};
+                    }
+                    .projectTag__yellow {
+                        background: #fbf3da;
+                    }
+                    .projectTag__green {
+                        background: #ddedea;
+                    }
+                    .projectTag__red {
+                        background: #fbe4e4;
+                    }
+                    .projectTag__purple {
+                        background: #eae4f2;
+                    }
+                    .projectTag__pink {
+                        background: #f4dfeb;
+                    }
+                    .projectTag__gray {
+                        background: #ebeced;
+                    }
+                    .projectTag__blue {
+                        background: #ddebf1;
+                    }
+                    .projectTag__orange {
+                        background: #faebdd;
                     }
                 `}
             </style>

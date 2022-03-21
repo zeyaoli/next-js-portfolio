@@ -6,9 +6,16 @@ export default function Footer() {
         <footer className={footerStyles.footer} id="footer">
             <div className={footerStyles.footerLeft}>
                 <p className={utilStyles.footerText}>
-                    Zeyao Li © 2021{" "}
+                    Zeyao Li © 2022{" "}
                     <span style={{ fontSize: "0.6rem" }}>
-                        This site is designed and developed by me
+                        This site is designed and developed by me, powered by{" "}
+                        <a
+                            href="https://nextjs.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Next.js
+                        </a>
                     </span>
                 </p>
             </div>

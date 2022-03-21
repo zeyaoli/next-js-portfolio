@@ -3,10 +3,15 @@ title: "Dropmark"
 year: "2021"
 date: "2021-3-22"
 duration: "4 months"
-description: "The newest version of Dropmark, a visual organization that has been used by almost 50,0000 people."
+description: "At Oak Studio, I collaborated with designers and engineers on the newest Dropmark Design System, and developed its UI Component library with Next.js."
 thumbnail: "/dropmark-thumbnail.webp"
-role: "Web Development"
-skill: "#Next.js #Storybook #WebDev #Front-end"
+role: "Frontend Developer"
+skill:
+    [
+        { "name": "Front-end Development", "color": "yellow" },
+        { "name": "Product", "color": "red" },
+        { "name": "Design System", "color": "purple" },
+    ]
 ---
 
 ### Dropmark is a visual organization and a tool that people to organize their collections and collaborate with other people. It has been used by almost 50,0000 people over ten years.

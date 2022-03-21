@@ -3,10 +3,14 @@ title: "To 100 (Non-existed) Boys I Dated Before"
 year: "2020"
 date: "2020-9-20"
 duration: "2 Weeks"
-description: "A Tinder clone contains machine-learning generated dating profiles and stories that I 'encountered' before "
+description: "I made a Tinder clone containing 100 non-existed boys I dated before with our dating stories generated from the OkCupid dataset. "
 thumbnail: "/to-100-boys-thumbnail.webp"
-role: "Web designer and developer, Data collection, Ideation"
-skill: "#React #MaterialUI #Front-end #RunwayML"
+role: "Full Stack Developer"
+skill:
+    [
+        { "name": "Full Stack Development", "color": "yellow" },
+        { "name": "Machine Learning", "color": "gray" },
+    ]
 ---
 
 ## A Tinder clone tells my frustrating dating experiences with 100 non-existed men whose machine-learning generated dating profiles and our dating stories.
@@ -25,10 +29,10 @@ The project process contains three parts: data collection, data training, and fr
 
 ### Data Collection
 
-- Profile photos are from StyleGan2 for the FFHQ dataset, one of NVIDIA Research Projects.
-- Names are aggregated from the social security administration.
-- Dating Bio is trained from Ok-Cupid profiles datasets from Kaggle, where contains around 60k users' dating profile information. From the open-ended questions, we picked the three most related ones, bio, fun fact, and "what are you looking for."
-- Dating stories are trained from the 'what are you looking for' and fun fact categories of the Ok-Cupid profiles dataset. We put the training result into Tracey, a context-free grammar, and generated the story with particular grammar.
+-   Profile photos are from StyleGan2 for the FFHQ dataset, one of NVIDIA Research Projects.
+-   Names are aggregated from the social security administration.
+-   Dating Bio is trained from Ok-Cupid profiles datasets from Kaggle, where contains around 60k users' dating profile information. From the open-ended questions, we picked the three most related ones, bio, fun fact, and "what are you looking for."
+-   Dating stories are trained from the 'what are you looking for' and fun fact categories of the Ok-Cupid profiles dataset. We put the training result into Tracey, a context-free grammar, and generated the story with particular grammar.
 
 ![kaggle page](/to-100-boys/kaggle.png)
 

@@ -2,18 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 
-@font-face {
-    font-family: "OrticaLight";
-    src: url("/webfont/Ortica-Light.woff2") format("woff2"),
-        url("/webfont/Ortica-Light.woff") format("woff");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "OrticaBold";
-    src: url("/webfont/Ortica-Bold.woff2") format("woff2"),
-        url("/webfont/Ortica-Bold.woff") format("woff");
-    font-display: swap;
+:root {
+    --purple-text: #6940a5;
 }
 
 html,
@@ -21,14 +11,15 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Inter", sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     font-size: 18px;
     font-weight: 400;
     width: 100%;
     height: 100%;
     background-attachment: fixed;
-    color: #3c3c3c;
+    color: #333333;
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
 }
 
 * {
@@ -36,15 +27,21 @@ body {
 }
 
 a {
-    color: #3c3c3c;
+    color: #333333;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1,
 h2,
-h3 {
+h3,
+p {
     font-weight: 400;
-    color: #1a6050;
+    color: #333333;
+    margin: 0;
 }
 
 img {
