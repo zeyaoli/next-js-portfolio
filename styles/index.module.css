@@ -37,7 +37,7 @@
     margin-bottom: 0;
 }
 .projects > li + li {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 0;
 }
 .image {
@@ -81,7 +81,7 @@
 }
 
 .title {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     font-weight: 500;
     cursor: pointer;

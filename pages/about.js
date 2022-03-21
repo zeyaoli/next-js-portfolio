@@ -29,6 +29,7 @@ export default function AboutPage() {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://glaukos.com/"
+                            style={{ color: "var(--green-text)" }}
                         >
                             Glaukos
                         </a>
@@ -40,6 +41,7 @@ export default function AboutPage() {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://fm.hunter.cuny.edu/"
+                            style={{ color: "var(--purple-text)" }}
                         >
                             Hunter College Film and Media department
                         </a>
@@ -82,6 +84,7 @@ export default function AboutPage() {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://docs.google.com/document/d/1puJl2BLUl-K39SPM_lc2yBSgOdKo7jGJHVaJIFTdsrY/edit?usp=sharing"
+                            style={{ color: "var(--yellow-text)" }}
                         >
                             here
                         </a>
