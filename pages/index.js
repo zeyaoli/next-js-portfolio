@@ -42,19 +42,13 @@ export default function Home({ allPostsData }) {
                 <div className={indexStyles.projectDetail}>
                     <div className={indexStyles.projectColLeft}>
                         <Link href="/projects/[id]" as={`/projects/${id}`}>
-                            <a
-                                className={`${utilStyles.headingLgNoMargin} ${indexStyles.title}`}
-                            >
-                                {title}
-                            </a>
+                            <a className={`${indexStyles.title}`}>{title}</a>
                         </Link>
                         <p className={indexStyles.projectSubDetail}>{role}</p>
                         <p className={indexStyles.projectSubDetail}>{year}</p>
                     </div>
 
-                    <div
-                        className={`${utilStyles.textSm} ${indexStyles.projectDescription}`}
-                    >
+                    <div className={`${indexStyles.projectDescription}`}>
                         {description}
                     </div>
                 </div>
