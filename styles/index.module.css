@@ -54,6 +54,8 @@
 
 .image:hover {
     transform: scale(1.02);
+    /* Fix safari filter bug */
+    will-change: filter;
     filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
 }
 
