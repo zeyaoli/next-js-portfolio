@@ -18,8 +18,8 @@ export default function AboutPage() {
                     <p className={utilStyles.bodyLong}>
                         Hi 👋 , I am Zeyao. I am an experienced web developer
                         and designer specializing in building content-rich
-                        websites and web-based apps, with a broad range of tech
-                        stacks in hand.
+                        websites and web-based apps with a broad range of tech
+                        stacks.
                         <br />
                         <br />
                         Currently, I am a Web Engineer at PINT, where I build
@@ -36,7 +36,7 @@ export default function AboutPage() {
                         , an ophthalmic medical technology company's brand new
                         website.
                         <br />
-                        <br />I am also an an adjunct professor at{" "}
+                        <br />I am also an adjunct professor at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -65,8 +65,8 @@ export default function AboutPage() {
                             href="https://oak.is"
                         >
                             Oak Studios LLC
-                        </a>
-                        , and a Project Manager at{" "}
+                        </a>{" "}
+                        and a Project Manager at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
