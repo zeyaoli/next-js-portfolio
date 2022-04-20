@@ -3,6 +3,7 @@ title: "Rubicon MD"
 year: "2022"
 date: "2022-2-15"
 duration: "14 Weeks"
+category: 'work'
 description: "I developed marketing sites for the New York-based Series-C healthcare startup RubiconMD to show the mature and evolving company presence on the web."
 thumbnail: "/rubicon.webp"
 role: "Lead Web Developer"

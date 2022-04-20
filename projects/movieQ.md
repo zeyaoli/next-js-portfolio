@@ -3,6 +3,7 @@ title: "movieQ"
 year: "2020"
 date: "2020-3-20"
 duration: "3 Days"
+category: 'work'
 description: "A social and movie streaming platform that connects LGBTQ+ community members through movies."
 thumbnail: "/movieQ-thumbnail.webp"
 role: "UX Designer, UI Designer, Ideation"

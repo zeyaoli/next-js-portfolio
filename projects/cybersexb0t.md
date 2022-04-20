@@ -4,6 +4,7 @@ year: "2020"
 date: "2020-9-21"
 duration: "2 Weeks"
 description: "With Google DialogFlow, I created a retro chatroom experience with an AI bot that flirts with you with your commands. "
+category: 'work'
 thumbnail: "/cyber-thumbnail.webp"
 role: "Full Stack Developer"
 skill:

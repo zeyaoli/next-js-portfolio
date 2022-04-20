@@ -27,15 +27,18 @@
 
 .headerLeft,
 .headerRight {
-    display: grid;
-    place-items: center;
+    display: flex; 
+    align-items: center;
 }
+
+
 
 .headerLeft a {
     padding-left: 1rem;
 }
 
-.headerRight a {
+.headerRight > * {
+    padding-left: 1rem;
     padding-right: 1rem;
 }
 

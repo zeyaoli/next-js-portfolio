@@ -60,3 +60,31 @@ pre code {
     display: block;
     padding: 20px;
 }
+
+
+/* COLOR TAGS */
+.projectTag__yellow {
+    background: #fbf3da;
+}
+.projectTag__green {
+    background: #ddedea;
+}
+.projectTag__red {
+    background: #fbe4e4;
+}
+.projectTag__purple {
+    background: #eae4f2;
+}
+.projectTag__pink {
+    background: #f4dfeb;
+}
+.projectTag__gray {
+    background: #ebeced;
+}
+.projectTag__blue {
+    background: #ddebf1;
+}
+.projectTag__orange {
+    background: #faebdd;
+}
+/* END OF COLOR TAGS*/

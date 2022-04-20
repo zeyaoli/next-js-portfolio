@@ -19,8 +19,10 @@ export async function getStaticProps() {
     };
 }
 export default function Home({ allPostsData }) {
-    const listItems = allPostsData.map(
-        ({ id, title, description, thumbnail, skill, year, role }) => (
+    const work = allPostsData.filter(post => post.category === 'work');
+    const listItems = work.map(
+        ({ id, title, description, thumbnail, skill, year, role }) => (   
+            
             <li className={utilStyles.listItem} key={id}>
                 <Link href="/projects/[id]" as={`/projects/${id}`}>
                     <div
@@ -28,12 +30,11 @@ export default function Home({ allPostsData }) {
                         className={indexStyles.image}
                     ></div>
                 </Link>
-                {/* {console.log({ skillArr })} */}
                 <div className={indexStyles.projectTags}>
                     {typeof skill === "object" &&
                         skill.map(({ name, color }) => {
                             return (
-                                <span className={`projectTag__${color}`}>
+                                <span className={`projectTag__${color}`} key={name}>
                                     {name}
                                 </span>
                             );
@@ -75,30 +76,6 @@ export default function Home({ allPostsData }) {
                 {`
                     body {
                         background-color: ${bgColor};
-                    }
-                    .projectTag__yellow {
-                        background: #fbf3da;
-                    }
-                    .projectTag__green {
-                        background: #ddedea;
-                    }
-                    .projectTag__red {
-                        background: #fbe4e4;
-                    }
-                    .projectTag__purple {
-                        background: #eae4f2;
-                    }
-                    .projectTag__pink {
-                        background: #f4dfeb;
-                    }
-                    .projectTag__gray {
-                        background: #ebeced;
-                    }
-                    .projectTag__blue {
-                        background: #ddebf1;
-                    }
-                    .projectTag__orange {
-                        background: #faebdd;
                     }
                 `}
             </style>

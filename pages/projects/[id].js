@@ -19,7 +19,7 @@ export default function Post({ postData }) {
                         <div className={postStyle.introLeft}>
                             <h1>{postData.title}</h1>
                             <p>{postData.year}</p>
-                            <p>{`Role: ${postData.role}`}</p>
+                            <p>{postData.role}</p>
                             <p>
                                 {postData.award
                                     ? `Exhibition/Award: ${postData.award}`

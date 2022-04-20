@@ -3,6 +3,7 @@ title: "Thirsty Plant"
 year: "2019"
 date: "2020-4-17"
 duration: "3 Weeks"
+category: 'work'
 description: " A Twitter API controlled light installation on criticizing people's addiction of social media."
 thumbnail: "/thirsty-plant.gif"
 role: "Individual Project"

@@ -3,6 +3,7 @@ title: "Glaukos"
 year: "2021"
 date: "2021-8-10"
 duration: "14 Weeks"
+category: 'work'
 description: "I led the web development of a multi-region medical company that pioneers the global glaucoma market and helped them rebrand its website to show its company's modern and lively side."
 thumbnail: "/glaukos-thumbnail.webp"
 role: "Lead Web Developer"

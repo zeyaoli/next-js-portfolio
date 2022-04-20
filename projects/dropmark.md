@@ -3,6 +3,7 @@ title: "Dropmark"
 year: "2021"
 date: "2021-3-22"
 duration: "4 months"
+category: 'work'
 description: "At Oak Studio, I collaborated with designers and engineers on the newest Dropmark Design System, and developed its UI Component library with Next.js."
 thumbnail: "/dropmark-thumbnail.webp"
 role: "Frontend Developer"

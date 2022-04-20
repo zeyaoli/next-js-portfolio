@@ -3,6 +3,7 @@ title: "To 100 (Non-existed) Boys I Dated Before"
 year: "2020"
 date: "2020-9-20"
 duration: "2 Weeks"
+category: 'work'
 description: "I made a Tinder clone containing 100 non-existed boys I dated before with our dating stories generated from the OkCupid dataset. "
 thumbnail: "/to-100-boys-thumbnail.webp"
 role: "Full Stack Developer"

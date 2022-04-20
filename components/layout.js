@@ -19,11 +19,19 @@ function Layout({ children, about }) {
                             </Link>
                         </div>
                         <div className={styles.headerRight}>
-                            <a>
+                            <Link href="/">
+                                <a>
+                                    <span>Work</span>
+                                </a>
+                            </Link>
+                            <Link href="/experiments">
+                                <a>
+                                    <span>Experiments</span>
+                                </a>
+                            </Link>
                                 <span className={utilStyles.lightText}>
                                     About
                                 </span>
-                            </a>
                         </div>
                     </>
                 ) : (
@@ -36,6 +44,16 @@ function Layout({ children, about }) {
                             </Link>
                         </div>
                         <div className={styles.headerRight}>
+                            <Link href="/">
+                                <a>
+                                    <span>Work</span>
+                                </a>
+                            </Link>
+                            <Link href="/experiments">
+                                <a>
+                                    <span>Experiments</span>
+                                </a>
+                            </Link>
                             <Link href="/about">
                                 <a>
                                     <span>About</span>
