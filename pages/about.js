@@ -22,21 +22,10 @@ export default function AboutPage() {
                         stacks.
                         <br />
                         <br />
-                        Currently, I am a Web Engineer at PINT, where I build
-                        and maintain websites for clients in variable fields.
-                        Recently, I led the development process of{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://glaukos.com/"
-                            style={{ color: "var(--green-text)" }}
-                        >
-                            Glaukos
-                        </a>
-                        , an ophthalmic medical technology company's brand new
-                        website.
-                        <br />
-                        <br />I am also an adjunct professor at{" "}
+                        Currently, I am a Web Engineer at <a href="https://ramp.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "var(--purple-text)" }}>Ramp</a>, focusing on the growth team. I am also an adjunct professor at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -57,20 +46,22 @@ export default function AboutPage() {
                         Interactive Media Arts from NYU Shanghai.
                         <br />
                         <br />
-                        Previously, I was a front-end engineer developing
+                        Previously, I was a front-end engineer at PINT, a San Diego-based web agency, developed
                         Dropmark at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://oak.is"
+                            style={{ color: "var(--yellow-text)" }}
                         >
                             Oak Studios LLC
                         </a>{" "}
-                        and a Project Manager at{" "}
+                        ,and was a Project Manager at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.rga.com/"
+                            style={{ color: "var(--yellow-text)" }}
                         >
                             R/GA
                         </a>

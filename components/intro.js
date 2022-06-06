@@ -7,8 +7,10 @@ const Intro = () => {
                 I am Zeyao, a web developer and designer specializing in
                 building sites and design systems for enhancing companies'
                 branding and value and refining their audience's web experience.
-                I am currently working at PINT, a full-service web development
-                agency. I also teach{" "}
+                I am currently working at <a href="https://ramp.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "var(--purple-text)" }}>Ramp</a>. I also teach{" "}
                 <a
                     href="https://zeyao.online"
                     target="_blank"
