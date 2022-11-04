@@ -49,6 +49,14 @@
     margin: 10px 0;
 }
 
+.content h3{
+    margin-top: 32px;
+    font-size: 20px;
+}
+.content hr{
+    margin: 40px 0;
+}
+
 @media (max-width: 767.98px) {
     .posts {
         margin: 1rem;
@@ -60,5 +68,9 @@
     }
     .intro > * {
         width: 100%;
+    }
+    .content h3{
+        margin-top: 24px;
+        font-size: 18px;
     }
 }
