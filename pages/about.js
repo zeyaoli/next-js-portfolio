@@ -25,7 +25,7 @@ export default function AboutPage() {
                         Currently, I am a Web Engineer at <a href="https://ramp.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ color: "var(--purple-text)" }}>Ramp</a>, focusing on the growth team. I am also an adjunct professor at{" "}
+                    style={{ color: "var(--purple-text)" }}>Ramp</a>, building a better marketing site for the fastest growing startup in New York. I am also an adjunct professor at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -35,11 +35,13 @@ export default function AboutPage() {
                             Hunter College Film and Media department
                         </a>
                         , teaching Web Production in the Department of Film and
-                        Media. I believe in life learning, and teaching helps me
+                        Media. 
+                        {/* I believe in life learning, and teaching helps me
                         learn better myself and break down the web development
                         foundation for my students. I am proud of leading my
                         students into the door of web development and seeing
-                        them grow over the semester. <br /> <br />
+                        them grow over the semester.  */}
+                        <br /> <br />
                         I hold a Master's degree in Interactive
                         Telecommunications Program (ITP) from NYU Tisch School
                         of the Arts and a Bachelor of Science's degree in
@@ -55,8 +57,8 @@ export default function AboutPage() {
                             style={{ color: "var(--yellow-text)" }}
                         >
                             Oak Studios LLC
-                        </a>{" "}
-                        ,and was a Project Manager at{" "}
+                        </a>
+                        , and was a Project Manager at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -106,9 +108,9 @@ export default function AboutPage() {
                                 Libraries/ Framework{" "}
                             </span>
                             <span className={utilStyles.headingLightMdSans}>
-                                — React.js, Next.js, Storybook, Node.js,
+                                — React.js, Next.js, Vue.js, Storybook, Node.js,
                                 Express.js, WordPress, D3.js, p5.js, three.js,
-                                socket.io (Web Socket), MongoDB
+                                socket.io (Web Socket), MongoDB, Webflow
                             </span>
                         </div>
                         <div className={aboutStyles.skills_column}>
@@ -116,11 +118,11 @@ export default function AboutPage() {
                                 Software / Tools{" "}
                             </span>
                             <span className={utilStyles.headingLightMdSans}>
-                                — Arduino, Adobe Suite, Docker, Figma, Git, NPM,
+                                — Adobe Suite, Amplitude, Clearbit, Docker, Figma, Git, Google Optimize, Looker, Mutiny, NPM, Segment,
                                 Sketch, Webpack, Unity
                             </span>
                         </div>
-                        <div className={aboutStyles.skills_column}>
+                        {/* <div className={aboutStyles.skills_column}>
                             <span className={utilStyles.headingLightMd}>
                                 Project Production{" "}
                             </span>
@@ -128,7 +130,7 @@ export default function AboutPage() {
                                 — UX / UI Design, Prototyping, 3D Printing,
                                 Laser Cutting, Photogrammetry, Wireframing
                             </span>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className={aboutStyles.profile_detail}>
