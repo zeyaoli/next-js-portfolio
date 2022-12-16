@@ -24,11 +24,11 @@ function Layout({ children, about }) {
                                     <span>Work</span>
                                 </a>
                             </Link>
-                            <Link href="/experiments">
+                            {/* <Link href="/experiments">
                                 <a>
                                     <span>Experiments</span>
                                 </a>
-                            </Link>
+                            </Link> */}
                                 <span className={utilStyles.lightText}>
                                     About
                                 </span>
@@ -49,11 +49,11 @@ function Layout({ children, about }) {
                                     <span>Work</span>
                                 </a>
                             </Link>
-                            <Link href="/experiments">
+                            {/* <Link href="/experiments">
                                 <a>
                                     <span>Experiments</span>
                                 </a>
-                            </Link>
+                            </Link> */}
                             <Link href="/about">
                                 <a>
                                     <span>About</span>

@@ -63,11 +63,11 @@
 
 .headingLightMdSans {
     font-family: "Inter", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.2rem;
     line-height: 150%;
     letter-spacing: 0.005em;
-    margin: 1rem 0;
+    margin: 1rem 0 0.5rem 0;
 }
 
 .headingMd {
@@ -118,7 +118,6 @@
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: rgba(34, 34, 34, 0.6);
 }
 
 .textLightSm {

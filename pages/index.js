@@ -8,7 +8,7 @@ import indexStyles from "../styles/index.module.css";
 
 import { getSortedPostsData } from "../lib/posts";
 
-const bgColor = "#fcfcfc";
+// const bgColor = "#fcfcfc";
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData();
@@ -64,21 +64,18 @@ export default function Home({ allPostsData }) {
             </Head>
             <Intro />
             <section className={indexStyles.projectSection}>
-                <div className={indexStyles.sectionTitle}>
-                    <h3>Select Projects</h3>
-                </div>
                 <ul className={`${utilStyles.list} ${indexStyles.projects}`}>
                     {listItems}
                 </ul>
             </section>
 
-            <style jsx global>
+            {/* <style jsx global>
                 {`
                     body {
                         background-color: ${bgColor};
                     }
                 `}
-            </style>
+            </style> */}
         </Layout>
     );
 }

@@ -28,7 +28,6 @@
 }
 .introLeft p {
     font-size: 16px;
-    color: rgba(34, 34, 34, 0.6);
 }
 
 .introRight {
@@ -36,7 +35,7 @@
     font-size: 16px;
 }
 .introRight > * {
-    color: rgba(34, 34, 34, 0.6);
+    color: var(--text-secondary-color--light);
 }
 .content {
     margin-top: 40px;

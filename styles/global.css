@@ -6,6 +6,11 @@
     --purple-text: #6940a5;
     --yellow-text: #dfab01;
     --green-text: #0f7b6c;
+    --text-color--dark: #333333;
+    --text-color--light: #fcfcfc;
+    --text-secondary-color--light: #c3c3c3;
+    --bg-color--dark: #1a1a1a;
+    --bg-color--light: #fcfcfc;
 }
 
 html,
@@ -14,13 +19,13 @@ body {
     margin: 0;
     font-family: "Inter", sans-serif;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     width: 100%;
     height: 100%;
     background-attachment: fixed;
-    color: #333333;
-    background-color: #fcfcfc;
+    color: var(--text-color--light);
+    background-color: var(--bg-color--dark);
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
 }
@@ -30,7 +35,7 @@ body {
 }
 
 a {
-    color: #333333;
+    color: var(--text-color--light);
     text-decoration: none;
 }
 
@@ -43,7 +48,7 @@ h2,
 h3,
 p {
     font-weight: 400;
-    color: #333333;
+    color: var(--bg-color--light);
     margin: 0;
 }
 
@@ -65,26 +70,34 @@ pre code {
 /* COLOR TAGS */
 .projectTag__yellow {
     background: #fbf3da;
+    color: var(--text-color--dark);
 }
 .projectTag__green {
     background: #ddedea;
+    color: var(--text-color--dark);
 }
 .projectTag__red {
     background: #fbe4e4;
+    color: var(--text-color--dark);
 }
 .projectTag__purple {
     background: #eae4f2;
+    color: var(--text-color--dark);
 }
 .projectTag__pink {
     background: #f4dfeb;
+    color: var(--text-color--dark);
 }
 .projectTag__gray {
     background: #ebeced;
+    color: var(--text-color--dark);
 }
 .projectTag__blue {
     background: #ddebf1;
+    color: var(--text-color--dark);
 }
 .projectTag__orange {
     background: #faebdd;
+    color: var(--text-color--dark);
 }
 /* END OF COLOR TAGS*/

@@ -2,10 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 120px;
-    max-width: 670px;
-    font-size: 18px;
-    line-height: 1.5;
+    margin-top: 64px;
+    max-width: 1390px;
+    font-size: 24px;
+    line-height: 1.25;
+    padding: 0 32px;
+    width: 75%;
+    margin-right: auto;
 }
 .intro p {
     margin: 0;
@@ -19,7 +22,11 @@
 
 .projectSection {
     margin: 100px 0;
-    max-width: 670px;
+    padding: 0 32px;
+}
+.projectSection ul{
+    width: 75%;
+    margin-right: auto;
 }
 
 .projects {
@@ -47,7 +54,6 @@
     cursor: pointer;
     padding-bottom: 62.5%;
     background-size: cover;
-    border: 1px solid #cccccc;
     transform: scale(1);
     transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
 }
@@ -79,14 +85,15 @@
 }
 
 .projectDetail .projectSubDetail {
-    color: rgba(34, 34, 34, 0.6);
     font-weight: 400;
     font-size: 16px;
+    color: var(--text-secondary-color--light);
 }
 .projectDetail .projectDescription {
     flex: 1;
     font-size: 16px;
     line-height: 1.5;
+    color: var(--text-secondary-color--light);
 }
 
 .title {

@@ -1,6 +1,5 @@
 .container {
     min-height: 100vh;
-    background: #fcfcfc;
 }
 
 .innerContainer {
@@ -8,11 +7,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1390px;
 }
 
 .header {
-    background-color: #fcfcfc;
-    padding-top: 1rem;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -30,9 +29,6 @@
     display: flex; 
     align-items: center;
 }
-
-
-
 .headerLeft a {
     padding-left: 1rem;
 }

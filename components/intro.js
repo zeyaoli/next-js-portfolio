@@ -4,22 +4,12 @@ const Intro = () => {
     return (
         <section className={indexStyles.intro}>
             <p>
-                I am Zeyao, a web developer and designer specializing in
-                building sites and design systems for enhancing companies'
-                branding and value and refining their audience's web experience.
-                I am currently working at <a href="https://ramp.com"
+                Zeyao is a web developer and designer based in New York City. He leads marketing site development and helps reshape various brands' online presence.
+                He is currently working at <a href="https://ramp.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ color: "var(--purple-text)" }}>Ramp</a>. I also teach{" "}
-                <a
-                    href="https://zeyao.online"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "var(--purple-text)" }}
-                >
-                    Web Production
-                </a>{" "}
-                at Hunter College as an Adjunct Professor.
+                    style={{ color: "var(--yellow-text)" }}>Ramp</a>. He is also an Adjunct Professor
+                at Hunter College.
             </p>
         </section>
     );
