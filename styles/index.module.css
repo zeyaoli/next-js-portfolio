@@ -117,9 +117,16 @@
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 767px) {
     .introduction {
         width: 100%;
+    }
+    .intro{
+        width: 100%;
+    }
+    .projectSection ul{
+        width: 100%;
+        margin: auto;
     }
     .projects li {
         width: 100%;
