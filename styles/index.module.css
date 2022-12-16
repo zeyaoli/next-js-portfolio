@@ -123,6 +123,10 @@
     }
     .intro{
         width: 100%;
+        padding: 0 16px;
+    }
+    .projectSection{
+        padding: 0 16px;
     }
     .projectSection ul{
         width: 100%;
